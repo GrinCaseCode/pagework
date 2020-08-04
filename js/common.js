@@ -120,6 +120,15 @@ $(".input-phone").mask("+7 (999) 999-99-99");
 		$(selectTab2).addClass("active");
 	});
 
+	$(".tabs-main li a").click(function(event) {
+		event.preventDefault();
+		$(".tabs-main li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-main").fadeOut(200);
+		var selectTab3 = $(this).attr("href");
+		$(selectTab3).fadeIn(200);
+	});
+
 
 $("#fl_inp").change(function(){
 		var filename = $(this).val().replace(/.*\\/, "");

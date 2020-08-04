@@ -92,6 +92,9 @@
 .contacts-block__title {
 	padding-top: 35px;
 }
+.card-technology__text {
+    height: 160px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -415,11 +418,72 @@ overflow: hidden;
 .item-service__icon img {
     top: 0;
 }
+.billbord_protection .title-billbord {
+    padding-bottom: 30px;
+}
+.billbord_protection {
+    min-height: auto;
+    background-image: url(../img/bg_billbord_protection.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.row_options,
+.row_technology {
+    justify-content: center;
+}
+.composition-image img {
+    margin: 0 auto;
+}
+.composition-image {
+    margin-bottom: 30px;
+}
+.descr-title {
+    font-size: 16px;
+    line-height: 22px;
+}
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+.block-form .circle-btn {
+    display: none;
+}
+.tabs-main li {
+    width: 33%;
+    margin-top: 20px;
+    flex: inherit;
+}
+.composition .tabs-main {
+    margin-top: 10px;
+}
+.composition {
+    padding-bottom: 20px;
+}
+.portfolio_protection {
+    padding-top: 20px;
+}
+.item-article__name {
+    font-size: 18px;
+}
+.card-technology__text {
+    height: 122px;
+}
+.item-article__image {
+    margin-bottom: 25px;
+}
+.tags-article {
+    margin-top: 11px;
+    padding-top: 15px;
+    font-size: 13px;
+    }
+    .item-article__content {
+    padding-left: 49px;
+}
+.item-article__date {
+    font-size: 13px;
+    top: 8px;
+}
 }
 @media only screen and (max-width : 575px) {
 .footer {
@@ -471,6 +535,61 @@ overflow: hidden;
 }
 .item-service__text br {
     display: none;
+}
+.card-technology__text {
+    height: auto;
+    padding-top: 65px;
+    display: block;
+    font-size: 16px;
+}
+.item-technology__name {
+    margin-bottom: 10px;
+}
+.options {
+    padding-bottom: 30px;
+}
+.tabs-main li a {
+    margin: 0 3px;
+    font-size: 12px;
+}
+.item-technology__text,
+.item-option__content p,
+.tab-container-main {
+    font-size: 14px;
+    line-height: 21px;
+}
+.tab-container-main p,
+.list-main li {
+    margin-bottom: 15px;
+}
+.item-article {
+    margin-top: 40px;
+}
+.item-article__name {
+    font-size: 15px;
+    line-height: 22px;
+}
+.item-article__content {
+    padding-left: 0;
+}
+.item-article__date {
+    position: relative;
+    top: 0;
+}
+.item-article__image {
+    margin-bottom: 13px;
+}
+.tags-article {
+    margin-top: 11px;
+    padding-top: 15px;
+    font-size: 11px;
+}
+.tags-article li::after {
+    content: "|";
+    margin: 0 2px;
+}
+.card-technology__image {
+    height: 240px;
 }
 }
 @media only screen and (max-width : 350px) {

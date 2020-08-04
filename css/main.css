@@ -970,7 +970,7 @@ font-size: 14px;
 .descr-title {
 	font-size: 20px;
 line-height: 28px;
-padding-top: 10px;
+padding-top: 15px;
 }
 .item-step {
 	margin-top: 60px;
@@ -1596,6 +1596,7 @@ position: relative;
 }
 .card-technology {
 	padding: 24px;
+	margin-bottom: 35px;
 	position: relative;
 	z-index: 2;
 }
@@ -1658,6 +1659,7 @@ transition: all 0.3s;
 .card-technology__text {
 	height: 122px;
 	font-size: 18px;
+	padding-top: 20px;
 	font-family: "Geometria-Medium";
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -1691,5 +1693,346 @@ margin: 0 auto;
 		text-align: center;
 }
 .item-technology__name {
-	
+	line-height: 24px;
+	margin-bottom: 20px;
+	font-family: "Geometria-Medium";
+}
+.item-technology__text {
+	line-height: 24px;
+}
+.item-technology {
+	margin-top: 35px;
+}
+.technology {
+	padding-top: 45px;
+	padding-bottom: 55px;
+}
+.options {
+	padding-top: 40px;
+	padding-bottom: 57px;
+	background-color: #f6f7f7;
+}
+.title-page_center,
+.descr-title_center {
+	text-align: center;
+}
+.item-option__head {
+	height: 78px;
+	font-size: 24px;
+line-height: 28px;
+font-family: "Geometria-Medium";
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 6px 6px 0 0;
+background-color: #f6f7f7;
+border-bottom: 3px #ffd200 solid;
+}
+.row_options > div {
+	margin-top: 45px;
+}
+.item-option {
+	box-shadow: 0 3px 8px rgba(104, 123, 140, 0.17);
+border-radius: 8px;
+background-color: #ffffff;
+min-height: 100%;
+}
+.item-option__content {
+	padding: 27px;
+	padding-bottom: 168px;
+}
+.item-option__content p {
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.item-option__content p strong {
+	font-weight: normal;
+	font-family: "Geometria-Medium";
+}
+.item-option__price {
+	color: #ef4a1e;
+font-size: 24px;
+line-height: 55px;
+padding-bottom: 7px;
+font-family: 'Geometria Extra Bold';
+}
+.item-option__bottom {
+	bottom: 40px;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+.item-option .btn-main span {
+	padding: 0 20px;
+}
+.item-option_standart .item-option__head {
+	border-color: #8bb852;
+}
+.item-option_premium .item-option__head {
+	border-color: #ff7200;
+}
+.calculation_tz {
+	padding-top: 38px;
+	padding-bottom: 48px;
+	background-image: url(../img/bg_calctz.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.title-page__lite {
+	display: block;
+	font-family: "Geometria";
+}
+.calculation_tz .title-page {
+	max-width: 100%;
+}
+.circle-btn {
+	color: #ffffff;
+font-size: 36px;
+line-height: 46px;
+width: 142px;
+height: 142px;
+border-radius: 50%;
+padding: 0 25px;
+line-height: 31px;
+font-family: "Geometria-Bold";
+box-shadow: inset 0 1px 21px rgba(251, 251, 250, 0.57);
+background-color: #6ba6c7;
+background-image: linear-gradient(to bottom, #63a6ce 0%, #1a749e 100%);
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+animation: radial-pulse 1s infinite;
+}
+@keyframes radial-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(99, 166, 206, 0.5);
+  }
+ 
+  100% {
+    box-shadow: 0 0 0 40px rgba(99, 166, 206, 0);
+  }
+}
+.circle-btn span {
+	font-size: 63px;
+	line-height: 31px;
+	font-family: "Geometria-Heavy";
+}
+.block-form .circle-btn {
+	position: absolute;
+	bottom: 84px;
+	right: 100%;
+	margin-right: 48px;
+}
+.tabs-main {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+.tabs-main li {
+	flex: 1;
+}
+.tabs-main li a {
+	height: 52px;
+	margin: 0 9px;
+box-shadow: 0 7px 16px rgba(104, 123, 140, 0.2);
+border-radius: 6px;
+background-color: #ffffff;
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 14px;
+text-transform: uppercase;
+color: #000;
+font-family: "Geometria-Medium";
+-webkit-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
+}
+.tabs-main li a:hover,
+.tabs-main li.active a {
+	background-color: #6ba6c7;
+	color: #fff;
+	box-shadow: 0 0px 0px rgba(104, 123, 140, 0.2);
+}
+.tabs-main li:first-child a {
+	margin-left: 0;
+}
+.tabs-main li:last-child a {
+	margin-right: 0;
+}
+.composition .tabs-main {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.composition-image img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.tab-container-main {
+	line-height: 24px;
+	padding: 43px 20px;
+	box-shadow: 0 3px 8px rgba(104, 123, 140, 0.17);
+border-radius: 8px;
+background-color: #ffffff;
+}
+.tab-container-main strong {
+	font-weight: normal;
+	font-family: "Geometria-Medium";
+}
+.tab-container-main p {
+	margin-bottom: 20px;
+}
+.list-main li {
+	margin-bottom: 20px;
+}
+.list-main li::before {
+	content: "•  ";
+}
+.tab-pane-main {
+display: none;
+}
+.tab-pane-main:first-child {
+	display: block;
+}
+.composition {
+	padding-top: 32px;
+	padding-bottom: 55px;
+}
+.steps_protection {
+	padding-top: 35px;
+	padding-bottom: 55px;
+	background-color: #f6f7f7;
+}
+.item-step_protection .item-step__number {
+	margin-bottom: 20px;
+	position: relative;
+}
+.item-step_protection .item-step__number::after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 43px;
+	height: 19px;
+	left: 100%;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	margin-left: 26px;
+	background-image: url(../img/arrow_step.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.row_steps > div:last-child .item-step__number::after {
+	display: none;
+}
+.portfolio .descr-title {
+	padding-top: 24px;
+	padding-bottom: 44px;
+}
+.portfolio_protection {
+	padding-top: 45px;
+}
+.portfolio_protection .title-page {
+	padding-bottom: 0;
+}
+.articles {
+background-color: #f6f7f7;	
+}
+.item-article {
+	max-width: 555px;
+	margin: 0 auto;
+	margin-top: 45px;
+	color: #000;
+	display: block;
+}
+.item-article__image {
+	height: 290px;
+	margin-bottom: 35px;
+	display: block;
+	overflow: hidden;
+	border-radius: 12px;
+}
+.item-article__image img {
+			width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 12px;
+	font-family: 'object-fit: cover;';
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.item-article:hover .item-article__image img {
+	transform: scale(1.1);
+}
+.item-article__content {
+	padding-left: 70px;
+	display: block;
+	position: relative;
+}
+.item-article__date {
+	position: absolute;
+	top: 5px;
+	left: 0;
+	display: block;
+}
+.item-article__name {
+	color: #000000;
+font-size: 24px;
+line-height: 30px;
+display: block;
+font-family: "Geometria-Medium";
+-webkit-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
+}
+.tags-article {
+	margin-top: 25px;
+	padding-top: 22px;
+	color: #6ba6c7;
+	border-top: 1px #6ba6c7 solid;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.tags-article li::after {
+	content: "|";
+	margin: 0 7px;
+}
+.tags-article li:last-child::after {
+	display: none;
+}
+.tags-article li a {
+	color: #6ba6c7;
+}
+.articles {
+	padding-top: 45px;
+	padding-bottom: 55px;
 }
