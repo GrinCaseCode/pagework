@@ -1559,3 +1559,12 @@ position: relative;
 
 
 /*End Sandwich*/
+.billbord_protection {
+	background-image: url(../img/bg_billbord_protection.jpg);
+}
+.title-billbord_middle {
+	font-size: 40px;
+}
+.billbord_protection .title-billbord {
+	padding-bottom: 60px;
+}
