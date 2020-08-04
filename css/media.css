@@ -466,6 +466,9 @@ overflow: hidden;
 .slider-property .slick-arrow {
     top: 60%;
 }
+.item-service__text br {
+    display: none;
+}
 }
 
 /* Custom, iPhone Retina */
