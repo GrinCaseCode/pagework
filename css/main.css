@@ -1341,8 +1341,11 @@ color: #000;
 	height: 184px;
 	margin-left: 30px;
 	padding-right: 2px;
-	display: inline-block;
 	overflow: hidden;
+	display: inline-block;
+	backface-visibility: hidden;
+	overflow: hidden;
+	border-radius: 6px;
 }
 .slider-insta__item img {
 		width: 100%;
