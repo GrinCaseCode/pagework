@@ -1674,6 +1674,22 @@ width: 103px;
 height: 103px;
 background-color: #ffffff;
 border-radius: 50%;
+position: absolute;
+top: 225px;
+left: 0;
+right: 0;
+margin: 0 auto;
 	font-family: "Geometria-Bold";
 		color: #6aa6c8;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+}
+.item-technology__name {
+	
 }
