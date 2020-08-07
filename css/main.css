@@ -2332,6 +2332,7 @@ top: -5px;
 	box-shadow: 0 7px 15px rgba(160, 186, 219, 0.4);
 	background-color: #ffffff;
 	border-radius: 50%;
+	padding: 20px;
 }
 
 .last-child {
@@ -2564,3 +2565,98 @@ border-bottom: 1px transparent solid;
 .articles .btn-transparent {
 	margin-top: 55px;
 }
+
+/* Blog */
+
+
+
+.article-main {
+	position: relative;
+	padding: 0px 0px 54px 0px;
+}
+.blog-img {
+	margin: 0;
+}
+.blog-img {
+	height: 210px;
+	margin: 0px 0px 31px 0px;
+}
+.blog-img img {
+	height: 100%;
+	object-fit: cover;
+	
+}
+.blog-name {
+	font-size: 20px;
+	min-width: 100%;
+}
+
+.blog-article {
+	margin: 55px 0px 0px 0px;
+}
+
+/* Pagination */
+
+.pagination {
+	position: relative;
+}
+
+.pagination ul {
+	margin: 56px 0px 0px 0px;
+	min-height: 56px;
+	background-color: #f0f6f9;
+	width: 100%;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pagination .pagination-next a,
+.pagination .pagination-prev a {
+	font-size: 33px;
+	color: #6aa6c7;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.pagination .pagination-next a:hover,
+.pagination .pagination-prev a:hover {
+	color: #4682a3;
+}
+.pagination li a {
+	color: #000000;
+	margin: 0 22px;
+	font-family: "Geometria-Medium";
+	font-size: 16px;
+	font-weight: 500;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.pagination li a:hover,
+.pagination li.active a {
+	color: #6aa6c7;
+}
+.pagination .pagination-prev {
+	margin-right: 100px;
+}
+.pagination .pagination-next {
+	margin-left: 100px;
+}
+.header__bottom {
+	position: relative;
+	z-index: 1;
+  }
+  .header__bottom::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 1000%;
+	left: -500%;
+	top: 0;
+	height: 100%;
+	background-color: #f6f7f7;
+	z-index: -1;
+  }
+
