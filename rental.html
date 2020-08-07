@@ -1,1444 +1,1387 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
-<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8" />
-    <title>Заголовок</title>
-    <meta name="description" content="" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.png" />
-    <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
-    <link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
-    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-    <link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
-    <link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/main.css?ver=1.10" />
-    <link rel="stylesheet" href="css/media.css?ver=1.10" />
-
-</head>
-
-<body>
-
-    <div class="wrapper">
-        <header class="header">
-            <div class="container">
-                <div class="header__top">
-                    <span class="btn_nav">
-                        <span class='sandwich'>
-                            <span class='sw-topper'></span>
-                            <span class='sw-bottom'></span>
-                            <span class='sw-footer'></span>
-                        </span>
-                    </span>
-                    <div class="logo-wrap">
-                        <a href="#" class="logo">
-                            <img src="img/logo.svg" alt="alt">
-                        </a>
-                        <div class="logo-wrap__descr">Лицензированная компания в области пожарной безопасности,
-                            огнезащиты и антикоррозийной защиты</div>
-                    </div>
-                    <div class="header__contacts">
-                        <p>г. Санкт-Петербург,</p>
-                        <p>ул. Кантемировская, 12,</p>
-                        <p>литер А, пом. 10-Н</p>
-                    </div>
-                    <div class="header__contacts">
-                        <p>Без выходных: </p>
-                        <p>10:00-20:00</p>
-                        <p><a href="mailto:info@prima-piter.ru" rel="nofollow">info@prima-piter.ru</a></p>
-                    </div>
-                    <div class="header__right">
-                        <a href="tel:+7 (812) 920-32-38" class="link-phone" rel="nofollow">+7 (812) 920-32-38</a>
-                        <ul class="list-language show_tablet">
-                            <li class="active"><a href="#">RU</a><span>|</span></li>
-                            <li><a href="#">EN</a></li>
-                        </ul>
-                        <br>
-                        <a href="#callback" class="btn-simple fancybox">Заказать звонок</a>
-                    </div>
-                </div>
-                <div class="header__bottom">
-                    <ul class="list-language">
-                        <li class="active"><a href="#">RU</a><span>|</span></li>
-                        <li><a href="#">EN</a></li>
-                    </ul>
-                    <ul class="menu">
-                        <li><a href="#">О компании</a></li>
-                        <li><a href="#">Услуги</a></li>
-                        <li><a href="#">Наши объекты</a></li>
-                        <li><a href="#">Как мы работаем?</a></li>
-                        <li><a href="#">Оборудование</a></li>
-                        <li><a href="#">Лицензии</a></li>
-                        <li><a href="#">Блог</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-
-        <div class="rental">
-            <div class="container">
-                <div class="rental__title main__title">
-                    Аренда спецтехники для производства
-                    огнезащитных и антикоррозионных<br>
-                    работ в России
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="rental__btn">
-                            <a href="#" class="btn-main btn-main_block"><span>Заказать технику для производства<br>
-                                    огнезащиты и АКЗ под ключ</span></a>
+<!--[if lt IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8 lt-ie7">
+   <![endif]-->
+   <!--[if IE 7]>
+   <html lang="ru" class="lt-ie9 lt-ie8">
+      <![endif]-->
+      <!--[if IE 8]>
+      <html lang="ru" class="lt-ie9">
+         <![endif]-->
+         <!--[if gt IE 8]><!-->
+         <html lang="ru">
+            <head>
+               <meta charset="UTF-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <meta charset="utf-8" />
+               <title>Заголовок</title>
+               <meta name="description" content="" />
+               <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+               <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+               <link rel="shortcut icon" href="favicon.png" />
+               <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+               <link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+               <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+               <link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+               <link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+               <link rel="stylesheet" href="css/fonts.css" />
+               <link rel="stylesheet" href="css/main.css?ver=1.17" />
+               <link rel="stylesheet" href="css/media.css?ver=1.17" />
+            </head>
+            <body>
+               <div class="wrapper">
+                  <header class="header">
+                     <div class="container">
+                        <div class="header__top">
+                           <span class="btn_nav">
+                           <span class='sandwich'>
+                           <span class='sw-topper'></span>
+                           <span class='sw-bottom'></span>
+                           <span class='sw-footer'></span>
+                           </span>
+                           </span>
+                           <div class="logo-wrap">
+                              <a href="#" class="logo">
+                              <img src="img/logo.svg" alt="alt">
+                              </a>
+                              <div class="logo-wrap__descr">Лицензированная компания в области пожарной безопасности,
+                                 огнезащиты и антикоррозийной защиты
+                              </div>
+                           </div>
+                           <div class="header__contacts">
+                              <p>г. Санкт-Петербург,</p>
+                              <p>ул. Кантемировская, 12,</p>
+                              <p>литер А, пом. 10-Н</p>
+                           </div>
+                           <div class="header__contacts">
+                              <p>Без выходных: </p>
+                              <p>10:00-20:00</p>
+                              <p><a href="mailto:info@prima-piter.ru" rel="nofollow">info@prima-piter.ru</a></p>
+                           </div>
+                           <div class="header__right">
+                              <a href="tel:+7 (812) 920-32-38" class="link-phone" rel="nofollow">+7 (812) 920-32-38</a>
+                              <ul class="list-language show_tablet">
+                                 <li class="active"><a href="#">RU</a><span>|</span></li>
+                                 <li><a href="#">EN</a></li>
+                              </ul>
+                              <br>
+                              <a href="#callback" class="btn-simple fancybox">Заказать звонок</a>
+                           </div>
                         </div>
-                        </a>
-                        <div class="circle-btn rental__circle">
-                            <p> <span class="circle__word rental__word">от</span> <span>300</span> <span class="space">руб./сутки</span></p>
+                        <div class="header__bottom">
+                           <ul class="list-language">
+                              <li class="active"><a href="#">RU</a><span>|</span></li>
+                              <li><a href="#">EN</a></li>
+                           </ul>
+                           <ul class="menu">
+                              <li><a href="#">О компании</a></li>
+                              <li><a href="#">Услуги</a></li>
+                              <li><a href="#">Наши объекты</a></li>
+                              <li><a href="#">Как мы работаем?</a></li>
+                              <li><a href="#">Оборудование</a></li>
+                              <li><a href="#">Лицензии</a></li>
+                              <li><a href="#">Блог</a></li>
+                              <li><a href="#">Контакты</a></li>
+                           </ul>
                         </div>
-                        <ul class="rental__items">
-                            <li class="rental__item">Собственная доставка по всей территории России</li>
-                            <li class="rental__item">Есть все виды спецтехники: от компрессорных<br>
-                                установок и до торкрет-пушек</li>
-                            <li class="rental__item">Всегда исправное оборудование от лучших
-                                производителей спецтехники в области огнезащиты<br>
-                                и антикоррозионной обработки конструкций</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="rental__img">
-                            <img src="img/rental/rental-tank.png" alt="tank" />
+                     </div>
+                  </header>
+                  <div class="rental">
+                     <div class="container">
+                        <div class="rental__title main__title">
+                           Аренда спецтехники для производства
+                           огнезащитных и антикоррозионных<br>
+                           работ в России
                         </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="tech">
-            <div class="container">
-                <div class="tech__title">
-                    Каталог арендной спецтехники
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <ul class="tech__items ">
-                            <li class="tech-item active "><a href="#tab-main1" class="tech-item__link" ">Окрасочное оборудование</a></li>
-                            <li class=" tech-item"><a href="#tab-main2" class="tech-item__link">Компрессорные
-                                        станции</a></li>
-                            <li class="tech-item"><a href="#tab-main3" class="tech-item__link">Дизельные компрессоры</a>
-                            </li>
-                            <li class="tech-item"><a href="#tab-main4" class="tech-item__link">Абразивоструйные
-                                    установки</a></li>
-                            <li class="tech-item"><a href="#tab-main5" class="tech-item__link">Ресиверы</a></li>
-                            <li class="tech-item"><a href="#tab-main6" class="tech-item__link">Торкрет-пушки</a></li>
-                            <li class="tech-item"><a href="#tab-main7" class="tech-item__link">Измерительное
-                                    оборудование</a></li>
-                            <li class="tech-item"><a href="#tab-main8" class="tech-item__link">Тепловые пушки</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-9">
-
-
-                        <div class="tech-tabs__pane">
-                            <div class="tech__product" id="tab-main1">
-                                <div class="row">
+                        <div class="row">
+                           <div class="col-lg-6">
+                              <div class="rental__btn">
+                                 <a href="#" class="btn-main btn-main_block"><span>Заказать технику для производства<br>
+                                 огнезащиты и АКЗ под ключ</span></a>
+                              </div>
+                              </a>
+                              <div class="circle-btn rental__circle">
+                                 <p> <span class="circle__word rental__word">от</span> <span>300</span> <span class="space">руб./сутки</span></p>
+                              </div>
+                              <ul class="rental__items">
+                                 <li class="rental__item">Собственная доставка по всей территории России</li>
+                                 <li class="rental__item">Есть все виды спецтехники: от компрессорных<br>
+                                    установок и до торкрет-пушек
+                                 </li>
+                                 <li class="rental__item">Всегда исправное оборудование от лучших
+                                    производителей спецтехники в области огнезащиты<br>
+                                    и антикоррозионной обработки конструкций
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="rental__img">
+                                 <img src="img/rental/rental-tank.png" alt="tank" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tech">
+                     <div class="container">
+                        <div class="tech__title">
+                           Каталог арендной спецтехники
+                        </div>
+                        <div class="row">
+                           <div class="col-lg-3">
+                              <ul class="tech__items ">
+                                 <li class="tech-item active "><a href="#tab-main1" class="tech-item__link">Окрасочное оборудование</a></li>
+                                 <li class=" tech-item"><a href="#tab-main2" class="tech-item__link">Компрессорные
+                                    станции</a>
+                                 </li>
+                                 <li class="tech-item"><a href="#tab-main3" class="tech-item__link">Дизельные компрессоры</a>
+                                 </li>
+                                 <li class="tech-item"><a href="#tab-main4" class="tech-item__link">Абразивоструйные
+                                    установки</a>
+                                 </li>
+                                 <li class="tech-item"><a href="#tab-main5" class="tech-item__link">Ресиверы</a></li>
+                                 <li class="tech-item"><a href="#tab-main6" class="tech-item__link">Торкрет-пушки</a></li>
+                                 <li class="tech-item"><a href="#tab-main7" class="tech-item__link">Измерительное
+                                    оборудование</a>
+                                 </li>
+                                 <li class="tech-item"><a href="#tab-main8" class="tech-item__link">Тепловые пушки</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-lg-9">
+                              <div class="tech__product" id="tab-main1">
+                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="tech__img">
-                                            <img src="img/tech/hose.png" alt="hose" />
-                                        </div>
-                                        <div class="col-md-6"></div>
+                                       <div class="tech__img">
+                                          <img src="img/tech/hose.png" alt="hose" />
+                                       </div>
+                                       <div class="col-md-6"></div>
                                     </div>
-
                                     <div class="col-md-6">
-                                        <div class="hose__title">
-                                            Окрасочный аппарат Graco (США)
-                                        </div>
-                                        <ul class="hose__list">
-                                            <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                            <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                            <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                            </li>
-                                            <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                            <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                            </li>
-                                        </ul>
+                                       <div class="hose__title">
+                                          Окрасочный аппарат Graco (США)
+                                       </div>
+                                       <ul class="hose__list">
+                                          <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                                          <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                                          <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                                          </li>
+                                          <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                                          <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                                          </li>
+                                       </ul>
                                     </div>
-                                </div>
-                                <div class="tech__btn">
+                                 </div>
+                                 <div class="tech__btn">
                                     <a href="#" class="btn-main btn-main_block"><span>Заказать<br>
-                                            аренду оборудования
-                                        </span></a>
+                                    аренду оборудования
+                                    </span></a>
                                     <div class="tech__btn">
-                                        <a href="#" class="btn-main "><span>
-                                                Скачать весь каталог<br> арендной спецтехники
-                                            </span></a>
+                                       <a href="#" class="btn-main "><span>
+                                       Скачать весь каталог<br> арендной спецтехники
+                                       </span></a>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tech-tabs__pane">
-                            <div class="tech__product" id="tab-main2">
-                                <div class="row align-items-center">
+                                 </div>
+                              </div>
+                              <div class="tech__product" id="tab-main2">
+                                 <div class="row align-items-center">
                                     <div class="col-md-6">
-                                        <div class="tech__img">
-                                            <img src="img/tech/hose.png" alt="hose" />
-                                        </div>
-                                        <div class="col-md-6"></div>
+                                       <div class="tech__img">
+                                          <img src="img/tech/hose.png" alt="hose" />
+                                       </div>
+                                       <div class="col-md-6"></div>
                                     </div>
-
                                     <div class="col-md-6">
-                                        <div class="hose__title">
-                                            Окрасочный аппарат Graco (США)
-                                        </div>
-                                        <ul class="hose__list">
-                                            <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                            <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                            <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                            </li>
-                                            <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                            <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                            </li>
-                                        </ul>
+                                       <div class="hose__title">
+                                          Окрасочный аппарат Graco (США)
+                                       </div>
+                                       <ul class="hose__list">
+                                          <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                                          <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                                          <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                                          </li>
+                                          <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                                          <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                                          </li>
+                                       </ul>
                                     </div>
-                                </div>
-                                <div class="tech__btn">
+                                 </div>
+                                 <div class="tech__btn">
                                     <a href="#" class="btn-main btn-main_block"><span>Заказать<br>
-                                            аренду оборудования
-                                        </span></a>
-
+                                    аренду оборудования
+                                    </span></a>
                                     <div class="tech__btn">
-                                        <a href="#" class="btn-main "><span>
-                                                Скачать весь каталог<br> арендной спецтехники
-                                            </span></a>
+                                       <a href="#" class="btn-main "><span>
+                                       Скачать весь каталог<br> арендной спецтехники
+                                       </span></a>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tech-tabs__pane">
-                            <div class="tech__product" id="tab-main3">
-                                <div class="row align-items-center">
+                                 </div>
+                              </div>
+                              <div class="tech__product" id="tab-main3">
+                                 <div class="row align-items-center">
                                     <div class="col-md-6">
-                                        <div class="tech__img">
-                                            <img src="img/tech/hose.png" alt="hose" />
-                                        </div>
-                                        <div class="col-md-6"></div>
+                                       <div class="tech__img">
+                                          <img src="img/tech/hose.png" alt="hose" />
+                                       </div>
+                                       <div class="col-md-6"></div>
                                     </div>
-
                                     <div class="col-md-6">
-                                        <div class="hose__title">
-                                            Окрасочный аппарат Graco (США)
-                                        </div>
-                                        <ul class="hose__list">
-                                            <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                            <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                            <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                            </li>
-                                            <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                            <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                            </li>
-                                        </ul>
+                                       <div class="hose__title">
+                                          Окрасочный аппарат Graco (США)
+                                       </div>
+                                       <ul class="hose__list">
+                                          <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                                          <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                                          <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                                          </li>
+                                          <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                                          <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                                          </li>
+                                       </ul>
                                     </div>
-                                </div>
-                                <div class="tech__btn">
+                                 </div>
+                                 <div class="tech__btn">
                                     <a href="#" class="btn-main btn-main_block"><span>Заказать<br>
-                                            аренду оборудования
-                                        </span></a>
+                                    аренду оборудования
+                                    </span></a>
                                     <div class="tech__btn">
-                                        <a href="#" class="btn-main "><span>
-                                                Скачать весь каталог<br> арендной спецтехники
-                                            </span></a>
+                                       <a href="#" class="btn-main "><span>
+                                       Скачать весь каталог<br> арендной спецтехники
+                                       </span></a>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tech-tabs__pane">
-                            <div class="tech__product" id="tab-main4">
-                                <div class="row align-items-center">
+                                 </div>
+                              </div>
+                              <div class="tech__product" id="tab-main4">
+                                 <div class="row align-items-center">
                                     <div class="col-md-6">
-                                        <div class="tech__img">
-                                            <img src="img/tech/hose.png" alt="hose" />
-                                        </div>
-                                        <div class="col-md-6"></div>
+                                       <div class="tech__img">
+                                          <img src="img/tech/hose.png" alt="hose" />
+                                       </div>
+                                       <div class="col-md-6"></div>
                                     </div>
-
                                     <div class="col-md-6">
-                                        <div class="hose__title">
-                                            Окрасочный аппарат Graco (США)
-                                        </div>
-                                        <ul class="hose__list">
-                                            <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                            <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                            <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                            </li>
-                                            <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                            <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                            </li>
-                                        </ul>
+                                       <div class="hose__title">
+                                          Окрасочный аппарат Graco (США)
+                                       </div>
+                                       <ul class="hose__list">
+                                          <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                                          <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                                          <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                                          </li>
+                                          <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                                          <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                                          </li>
+                                       </ul>
                                     </div>
-                                </div>
-                                <div class="tech__btn">
+                                 </div>
+                                 <div class="tech__btn">
                                     <a href="#" class="btn-main btn-main_block"><span>Заказать<br>
-                                            аренду оборудования
-                                        </span></a>
+                                    аренду оборудования
+                                    </span></a>
                                     <div class="tech__btn">
-                                        <a href="#" class="btn-main "><span>
-                                                Скачать весь каталог<br> арендной спецтехники
-                                            </span></a>
+                                       <a href="#" class="btn-main "><span>
+                                       Скачать весь каталог<br> арендной спецтехники
+                                       </span></a>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tech-tabs__pane">
-                            <div class="tech__product" id="tab-main5">
-                                <div class="row align-items-center">
+                                 </div>
+                              </div>
+                              <div class="tech__product" id="tab-main5">
+                                 <div class="row align-items-center">
                                     <div class="col-md-6">
-                                        <div class="tech__img">
-                                            <img src="img/tech/hose.png" alt="hose" />
-                                        </div>
-                                        <div class="col-md-6"></div>
+                                       <div class="tech__img">
+                                          <img src="img/tech/hose.png" alt="hose" />
+                                       </div>
+                                       <div class="col-md-6"></div>
                                     </div>
-
                                     <div class="col-md-6">
-                                        <div class="hose__title">
-                                            Окрасочный аппарат Graco (США)
-                                        </div>
-                                        <ul class="hose__list">
-                                            <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                            <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                            <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                            </li>
-                                            <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                            <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                            </li>
-                                        </ul>
+                                       <div class="hose__title">
+                                          Окрасочный аппарат Graco (США)
+                                       </div>
+                                       <ul class="hose__list">
+                                          <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                                          <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                                          <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                                          </li>
+                                          <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                                          <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                                          </li>
+                                       </ul>
                                     </div>
-                                </div>
-                                <div class="tech__btn">
+                                 </div>
+                                 <div class="tech__btn">
                                     <a href="#" class="btn-main btn-main_block"><span>Заказать<br>
-                                            аренду оборудования
-                                        </span></a>
+                                    аренду оборудования
+                                    </span></a>
                                     <div class="tech__btn">
-                                        <a href="#" class="btn-main "><span>
-                                                Скачать весь каталог<br> арендной спецтехники
-                                            </span></a>
+                                       <a href="#" class="btn-main "><span>
+                                       Скачать весь каталог<br> арендной спецтехники
+                                       </span></a>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tech-tabs__pane">
-                            <div class="tech__product" id="tab-main6">
-                                <div class="row align-items-center">
+                                 </div>
+                              </div>
+                              <div class="tech__product" id="tab-main6">
+                                 <div class="row align-items-center">
                                     <div class="col-md-6">
-                                        <div class="tech__img">
-                                            <img src="img/tech/hose.png" alt="hose" />
-                                        </div>
-                                        <div class="col-md-6"></div>
+                                       <div class="tech__img">
+                                          <img src="img/tech/hose.png" alt="hose" />
+                                       </div>
+                                       <div class="col-md-6"></div>
                                     </div>
-
                                     <div class="col-md-6">
-                                        <div class="hose__title">
-                                            Окрасочный аппарат Graco (США)
-                                        </div>
-                                        <ul class="hose__list">
-                                            <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                            <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                            <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                            </li>
-                                            <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                            <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                            </li>
-                                        </ul>
+                                       <div class="hose__title">
+                                          Окрасочный аппарат Graco (США)
+                                       </div>
+                                       <ul class="hose__list">
+                                          <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                                          <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                                          <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                                          </li>
+                                          <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                                          <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                                          </li>
+                                       </ul>
                                     </div>
-                                </div>
-                                <div class="tech__btn">
+                                 </div>
+                                 <div class="tech__btn">
                                     <a href="#" class="btn-main btn-main_block"><span>Заказать<br>
-                                            аренду оборудования
-                                        </span></a>
+                                    аренду оборудования
+                                    </span></a>
                                     <div class="tech__btn">
-                                        <a href="#" class="btn-main "><span>
-                                                Скачать весь каталог<br> арендной спецтехники
-                                            </span></a>
+                                       <a href="#" class="btn-main "><span>
+                                       Скачать весь каталог<br> арендной спецтехники
+                                       </span></a>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tech-tabs__pane">
-                            <div class="tech__product" id="tab-main7">
-                                <div class="row align-items-center">
+                                 </div>
+                              </div>
+                              <div class="tech__product" id="tab-main7">
+                                 <div class="row align-items-center">
                                     <div class="col-md-6">
-                                        <div class="tech__img">
-                                            <img src="img/tech/hose.png" alt="hose" />
-                                        </div>
-                                        <div class="col-md-6"></div>
+                                       <div class="tech__img">
+                                          <img src="img/tech/hose.png" alt="hose" />
+                                       </div>
+                                       <div class="col-md-6"></div>
                                     </div>
-
                                     <div class="col-md-6">
-                                        <div class="hose__title">
-                                            Окрасочный аппарат Graco (США)
-                                        </div>
-                                        <ul class="hose__list">
-                                            <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                            <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                            <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                            </li>
-                                            <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                            <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                            </li>
-                                        </ul>
+                                       <div class="hose__title">
+                                          Окрасочный аппарат Graco (США)
+                                       </div>
+                                       <ul class="hose__list">
+                                          <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                                          <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                                          <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                                          </li>
+                                          <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                                          <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                                          </li>
+                                       </ul>
                                     </div>
-                                </div>
-                                <div class="tech__btn">
+                                 </div>
+                                 <div class="tech__btn">
                                     <a href="#" class="btn-main btn-main_block"><span>Заказать<br>
-                                            аренду оборудования
-                                        </span></a>
+                                    аренду оборудования
+                                    </span></a>
                                     <div class="tech__btn">
-                                        <a href="#" class="btn-main "><span>
-                                                Скачать весь каталог<br> арендной спецтехники
-                                            </span></a>
+                                       <a href="#" class="btn-main "><span>
+                                       Скачать весь каталог<br> арендной спецтехники
+                                       </span></a>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tech-tabs__pane">
-                            <div class="tech__product" id="tab-main8">
-                                <div class="row align-items-center">
+                                 </div>
+                              </div>
+                              <div class="tech__product" id="tab-main8">
+                                 <div class="row align-items-center">
                                     <div class="col-md-6">
-                                        <div class="tech__img">
-                                            <img src="img/tech/hose.png" alt="hose" />
-                                        </div>
-                                        <div class="col-md-6"></div>
+                                       <div class="tech__img">
+                                          <img src="img/tech/hose.png" alt="hose" />
+                                       </div>
+                                       <div class="col-md-6"></div>
                                     </div>
-
                                     <div class="col-md-6">
-                                        <div class="hose__title">
-                                            Окрасочный аппарат Graco (США)
-                                        </div>
-                                        <ul class="hose__list">
-                                            <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                            <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                            <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                            </li>
-                                            <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                            <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                            </li>
-                                        </ul>
+                                       <div class="hose__title">
+                                          Окрасочный аппарат Graco (США)
+                                       </div>
+                                       <ul class="hose__list">
+                                          <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                                          <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                                          <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                                          </li>
+                                          <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                                          <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                                          </li>
+                                       </ul>
                                     </div>
-                                </div>
-                                <div class="tech__btn">
+                                 </div>
+                                 <div class="tech__btn">
                                     <a href="#" class="btn-main btn-main_block"><span>Заказать<br>
-                                            аренду оборудования
-                                        </span></a>
+                                    аренду оборудования
+                                    </span></a>
                                     <div class="tech__btn">
-                                        <a href="#" class="btn-main "><span>
-                                                Скачать весь каталог<br> арендной спецтехники
-                                            </span></a>
+                                       <a href="#" class="btn-main "><span>
+                                       Скачать весь каталог<br> арендной спецтехники
+                                       </span></a>
                                     </div>
-                                </div>
-                            </div>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="equipment">
-            <div class="container">
-                <div class="equipment__title">
-                    Мы предоставляем технику от производителей-флагманов<br>
-                    профильного оборудования
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="equipment__items">
-                            <div class="equipment__img">
-                                <a href="#" class="equipment-link"> <img src="img/equipment/equipment-1.png"
-                                        alt="icon"></a>
-                            </div>
-                            <div class="equipment-text__block">
-                                <div class="equipment-subtitle">
-                                    Вся техника свежая
-                                </div>
-                                <div class="equipment-text">
-                                    С большим ресурсом безремонтной<br> работы
-                                </div>
-                            </div>
+                     </div>
+                  </div>
+                  <div class="equipment">
+                     <div class="container">
+                        <div class="equipment__title">
+                           Мы предоставляем технику от производителей-флагманов<br>
+                           профильного оборудования
                         </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="equipment__items">
-                            <div class="equipment__img">
-                                <a href="#" class="equipment-link"> <img src="img/equipment/equipment-3.png"
-                                        alt="icon"></a>
-                            </div>
-                            <div class="equipment-text__block">
-                                <div class="equipment-subtitle">
-                                    Мы проводим регулярное ТО
-                                </div>
-                                <div class="equipment-text">
-                                    Во время производства работ<br>
-                                    не возникнет задержек из-за поломок техники
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="equipment__items last-child">
-                            <div class="equipment__img">
-                                <a href="#" class="equipment-link"> <img src="img/equipment/equipment-2.png"
-                                        alt="icon"></a>
-                            </div>
-                            <div class="equipment-text__block">
-                                <div class="equipment-subtitle">
-                                    Полный комплект для производства<br>
-                                    огнезащитных работ под ключ
-                                </div>
-                                <div class="equipment-text">
-                                    У нас есть всё: от компрессорных станций<br> и до пескоструйных аппаратов
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="equipment__items last-child">
-                            <div class="equipment__img">
-                                <img src="img/equipment/equipment-4.png" alt="icon">
-                            </div>
-                            <div class="equipment-text__block">
-                                <div class="equipment-subtitle">
-                                    Собственная доставка
-                                </div>
-                                <div class="equipment-text">
-                                    Возможность оперативно подвезти<br>
-                                    технику в любую точку России в любой<br> день в году
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="equipment-officials">
-                    <div class="equipment-officials__block">
-                        <div class="equipment__logo">
-                            <img src="img/equipment/irmer_logo.png" alt="irmer">
-                        </div>
-
-                        <div class="equipment__logo">
-                            <img src="img/equipment/graco.png" alt="graco">
-                        </div>
-
-                        <div class="equipment__logo">
-                            <img src="img/equipment/wagner.png" alt="wagner">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="calculation calculation_tz">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7">
-                        <h2 class="title-page title-page_big">Получите расчет стоимости работ по вашему техническому
-                            заданию, <span class="title-page__lite">а также рекомендации по защите (АКЗ) конструкций от
-                                нашего специалиста</span></h2>
-                    </div>
-                    <div class="col-xl-4 offset-xl-1 offset-lg-0 offset-md-3 col-lg-5 col_pl">
-                        <div class="block-form">
-                            <div class="circle-btn">
-                                <p>за <span>1</span> день</p>
-                            </div>
-                            <div class="block-form__content">
-                                <div class="title-form-main">Заполните данную форму,</div>
-                                <div class="descr-form">и наш менеджер свяжется с вами в течение 15 минут!</div>
-                                <form>
-                                    <div class="item-form">
-                                        <div class="item-form__icon">
-                                            <img src="img/ic_user.svg" alt="alt">
-                                        </div>
-                                        <input type="text" placeholder="Имя" required="required">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="equipment__items">
+                                 <div class="equipment__img">
+                                    <a href="#" class="equipment-link"> <img src="img/equipment/equipment-1.png"
+                                       alt="icon"></a>
+                                 </div>
+                                 <div class="equipment-text__block">
+                                    <div class="equipment-subtitle">
+                                       Вся техника свежая
                                     </div>
-                                    <div class="item-form">
-                                        <div class="item-form__icon">
-                                            <img src="img/ic_phone.svg" alt="alt">
-                                        </div>
-                                        <input type="text" placeholder="Телефон" class="input-phone"
-                                            required="required">
+                                    <div class="equipment-text">
+                                       С большим ресурсом безремонтной<br> работы
                                     </div>
-                                    <div class="fl-upld">
-                                        <div id="fl_nm" class="name-upload"></div>
-                                        <label><input id="fl_inp" type="file" name="file"><i class="fa fa-paperclip"
-                                                aria-hidden="true"></i> Прикрепить вложение</label>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="equipment__items">
+                                 <div class="equipment__img">
+                                    <a href="#" class="equipment-link"> <img src="img/equipment/equipment-3.png"
+                                       alt="icon"></a>
+                                 </div>
+                                 <div class="equipment-text__block">
+                                    <div class="equipment-subtitle">
+                                       Мы проводим регулярное ТО
                                     </div>
-                                    <button class="btn-main btn-main_width" type="submit"><span>Получить расчет
-                                            стоимости</span></button>
-                                    <div class="checkbox-wrap">
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox" required="required" checked="checked" />
-                                                <span>Согласие на обработку персональных данных</span>
-                                            </label>
-                                        </div>
+                                    <div class="equipment-text">
+                                       Во время производства работ<br>
+                                       не возникнет задержек из-за поломок техники
                                     </div>
-                                </form>
-                            </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="equipment__items last-child">
+                                 <div class="equipment__img">
+                                    <a href="#" class="equipment-link"> <img src="img/equipment/equipment-2.png"
+                                       alt="icon"></a>
+                                 </div>
+                                 <div class="equipment-text__block">
+                                    <div class="equipment-subtitle">
+                                       Полный комплект для производства<br>
+                                       огнезащитных работ под ключ
+                                    </div>
+                                    <div class="equipment-text">
+                                       У нас есть всё: от компрессорных станций<br> и до пескоструйных аппаратов
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="equipment__items last-child">
+                                 <div class="equipment__img">
+                                    <img src="img/equipment/equipment-4.png" alt="icon">
+                                 </div>
+                                 <div class="equipment-text__block">
+                                    <div class="equipment-subtitle">
+                                       Собственная доставка
+                                    </div>
+                                    <div class="equipment-text">
+                                       Возможность оперативно подвезти<br>
+                                       технику в любую точку России в любой<br> день в году
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="portfolio">
-            <div class="container">
-                <h2 class="title-page title-page_main">За 10 лет работы мы реализовали более 50 крупных <br>проектов по
-                    всей территории России</h2>
-                <ul class="slider-portfolio-mobile">
-                    <li>
-                        <div class="slider-portfolio-mobile__item">
-                            <div class="slider-portfolio-mobile__head">
-                                <div class="slider-portfolio-mobile__name">Лахта Центр</div>
-                                <div class="slider-portfolio-mobile__logo">
-                                    <img src="img/logo_portfolio1.png" alt="alt">
-                                </div>
-                            </div>
-                            <div class="slider-portfolio-mobile__size">Объем работ: 25 340 м2</div>
-                            <div class="slider-portfolio-mobile__text"><strong>Заказчик:</strong> ООО «Технологии
-                                безопасности» Агеев Мансур Фаятович</div>
-                            <div class="slider-portfolio-mobile__text">
-                                <strong>Вид выполняемых работ:</strong>
-                                <p>Приведение огнестойкости конструкций к нормативному пределу посредством огнезащитной
-                                    обработки</p>
-                            </div>
-                            <div class="slider-portfolio-mobile__text"><strong>Адрес:</strong> Санкт-Петербург, ул.
-                                Высотная, 1</div>
-                            <div class="slider-portfolio-mobile__image">
-                                <img src="img/slide_portfolio1.jpg" alt="alt">
-                            </div>
+                        <div class="equipment-officials">
+                           <div class="equipment-officials__block">
+                              <div class="equipment__logo">
+                                 <img src="img/equipment/graco.png" alt="graco">
+                              </div>
+                              <div class="equipment__logo">
+                                 <img src="img/equipment/irmer_logo.png" alt="irmer">
+                              </div>
+                              <div class="equipment__logo">
+                                 <img src="img/equipment/wagner.png" alt="wagner">
+                              </div>
+                           </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="slider-portfolio-mobile__item">
-                            <div class="slider-portfolio-mobile__head">
-                                <div class="slider-portfolio-mobile__name">Лахта Центр</div>
-                                <div class="slider-portfolio-mobile__logo">
-                                    <img src="img/logo_portfolio1.png" alt="alt">
-                                </div>
-                            </div>
-                            <div class="slider-portfolio-mobile__size">Объем работ: 25 340 м2</div>
-                            <div class="slider-portfolio-mobile__text"><strong>Заказчик:</strong> ООО «Технологии
-                                безопасности» Агеев Мансур Фаятович</div>
-                            <div class="slider-portfolio-mobile__text">
-                                <strong>Вид выполняемых работ:</strong>
-                                <p>Приведение огнестойкости конструкций к нормативному пределу посредством огнезащитной
-                                    обработки</p>
-                            </div>
-                            <div class="slider-portfolio-mobile__text"><strong>Адрес:</strong> Санкт-Петербург, ул.
-                                Высотная, 1</div>
-                            <div class="slider-portfolio-mobile__image">
-                                <img src="img/slide_portfolio1.jpg" alt="alt">
-                            </div>
+                     </div>
+                  </div>
+                  <div class="calculation calculation_rent">
+                     <div class="container">
+                        <div class="row align-items-center">
+                           <div class="col-lg-7">
+                              <h2 class="title-page title-page_big">Получите расчет стоимости аренды спецтехники по вашему техническому заданию, <span class="title-page__lite">а также рекомендации по оптимизации проведения проектных работ от нашего специалиста</span></h2>
+                           </div>
+                           <div class="col-xl-4 offset-xl-1 offset-lg-0 offset-md-3 col-lg-5 col_pl">
+                              <div class="block-form">
+                                 <div class="circle-btn">
+                                    <p>за <span>1</span> день</p>
+                                 </div>
+                                 <div class="block-form__content">
+                                    <div class="title-form-main">Заполните данную форму,</div>
+                                    <div class="descr-form">и наш менеджер свяжется с вами в течение 15 минут!</div>
+                                    <form>
+                                       <div class="item-form">
+                                          <div class="item-form__icon">
+                                             <img src="img/ic_user.svg" alt="alt">
+                                          </div>
+                                          <input type="text" placeholder="Имя" required="required">
+                                       </div>
+                                       <div class="item-form">
+                                          <div class="item-form__icon">
+                                             <img src="img/ic_phone.svg" alt="alt">
+                                          </div>
+                                          <input type="text" placeholder="Телефон" class="input-phone"
+                                             required="required">
+                                       </div>
+                                       <div class="fl-upld">
+                                          <div id="fl_nm" class="name-upload"></div>
+                                          <label><input id="fl_inp" type="file" name="file"><i class="fa fa-paperclip"
+                                             aria-hidden="true"></i> Техническое задание</label>
+                                       </div>
+                                       <button class="btn-main btn-main_width" type="submit"><span>Получить расчет
+                                       стоимости</span></button>
+                                       <div class="checkbox-wrap">
+                                          <div class="checkbox">
+                                             <label>
+                                             <input type="checkbox" required="required" checked="checked" />
+                                             <span>Согласие на обработку персональных данных</span>
+                                             </label>
+                                          </div>
+                                       </div>
+                                    </form>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="slider-portfolio-mobile__item">
-                            <div class="slider-portfolio-mobile__head">
-                                <div class="slider-portfolio-mobile__name">Лахта Центр</div>
-                                <div class="slider-portfolio-mobile__logo">
-                                    <img src="img/logo_portfolio1.png" alt="alt">
-                                </div>
-                            </div>
-                            <div class="slider-portfolio-mobile__size">Объем работ: 25 340 м2</div>
-                            <div class="slider-portfolio-mobile__text"><strong>Заказчик:</strong> ООО «Технологии
-                                безопасности» Агеев Мансур Фаятович</div>
-                            <div class="slider-portfolio-mobile__text">
-                                <strong>Вид выполняемых работ:</strong>
-                                <p>Приведение огнестойкости конструкций к нормативному пределу посредством огнезащитной
-                                    обработки</p>
-                            </div>
-                            <div class="slider-portfolio-mobile__text"><strong>Адрес:</strong> Санкт-Петербург, ул.
-                                Высотная, 1</div>
-                            <div class="slider-portfolio-mobile__image">
-                                <img src="img/slide_portfolio1.jpg" alt="alt">
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="tabs">
-                    <li class="active"><a href="#tab1">Офисные и торговые центры</a></li>
-                    <li><a href="#tab2">Заводы, ТЭЦ, ТЭС</a></li>
-                    <li><a href="#tab3">Производственные площадки и цехи</a></li>
-                    <li><a href="#tab4">Коммунальные объекты</a></li>
-                    <li><a href="#tab5">Стадионы и спортивные комплексы</a></li>
-                    <li><a href="#tab6">Ведомственные объекты</a></li>
-                </ul>
-                <div class="tab-container">
-                    <div class="tab-pane active" id="tab1">
-                        <ul class="slider-portfolio">
-                            <li>
-                                <div class="slider-portfolio__item">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <ul class="slider-inner">
-                                                <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col_right-portfolio">
-                                            <div class="slider-portfolio__number">/01</div>
-                                            <div class="slider-portfolio__name">Ренессанс Плаза</div>
-                                            <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
-                                                ул. Марата, 69-71</div>
-                                            <div class="slider-portfolio__text">
-                                                <strong>Вид выполняемых работ:</strong>
-                                                <p>Приведение огнестойкости конструкций к нормативному пределу
-                                                    посредством огнезащитной обработки</p>
-                                            </div>
-                                            <div class="slider-portfolio__text">
-                                                <strong>Заказчик:</strong>
-                                                <p>ООО "Технологии безопасности". </p>
-                                                <p>Агеев Мансур Фаятович (руководитель проекта)</p>
-                                            </div>
-                                            <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
-                                            <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
-                                                    документе</span></a>
-                                        </div>
+                     </div>
+                  </div>
+                  <div class="portfolio">
+                     <div class="container">
+                        <h2 class="title-page title-page_main">За 10 лет работы мы реализовали более 50 крупных <br>проектов по
+                           всей территории России
+                        </h2>
+                        <ul class="slider-portfolio-mobile">
+                           <li>
+                              <div class="slider-portfolio-mobile__item">
+                                 <div class="slider-portfolio-mobile__head">
+                                    <div class="slider-portfolio-mobile__name">Лахта Центр</div>
+                                    <div class="slider-portfolio-mobile__logo">
+                                       <img src="img/logo_portfolio1.png" alt="alt">
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="slider-portfolio__item">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <ul class="slider-inner">
-                                                <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col_right-portfolio">
-                                            <div class="slider-portfolio__number">/02</div>
-                                            <div class="slider-portfolio__name">Ренессанс Плаза</div>
-                                            <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
-                                                ул. Марата, 69-71</div>
-                                            <div class="slider-portfolio__text">
-                                                <strong>Вид выполняемых работ:</strong>
-                                                <p>Приведение огнестойкости конструкций к нормативному пределу
-                                                    посредством огнезащитной обработки</p>
-                                            </div>
-                                            <div class="slider-portfolio__text">
-                                                <strong>Заказчик:</strong>
-                                                <p>ООО "Технологии безопасности". </p>
-                                                <p>Агеев Мансур Фаятович (руководитель проекта)</p>
-                                            </div>
-                                            <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
-                                            <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
-                                                    документе</span></a>
-                                        </div>
+                                 </div>
+                                 <div class="slider-portfolio-mobile__size">Объем работ: 25 340 м2</div>
+                                 <div class="slider-portfolio-mobile__text"><strong>Заказчик:</strong> ООО «Технологии
+                                    безопасности» Агеев Мансур Фаятович
+                                 </div>
+                                 <div class="slider-portfolio-mobile__text">
+                                    <strong>Вид выполняемых работ:</strong>
+                                    <p>Приведение огнестойкости конструкций к нормативному пределу посредством огнезащитной
+                                       обработки
+                                    </p>
+                                 </div>
+                                 <div class="slider-portfolio-mobile__text"><strong>Адрес:</strong> Санкт-Петербург, ул.
+                                    Высотная, 1
+                                 </div>
+                                 <div class="slider-portfolio-mobile__image">
+                                    <img src="img/slide_portfolio1.jpg" alt="alt">
+                                 </div>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="slider-portfolio-mobile__item">
+                                 <div class="slider-portfolio-mobile__head">
+                                    <div class="slider-portfolio-mobile__name">Лахта Центр</div>
+                                    <div class="slider-portfolio-mobile__logo">
+                                       <img src="img/logo_portfolio1.png" alt="alt">
                                     </div>
-                                </div>
-                            </li>
+                                 </div>
+                                 <div class="slider-portfolio-mobile__size">Объем работ: 25 340 м2</div>
+                                 <div class="slider-portfolio-mobile__text"><strong>Заказчик:</strong> ООО «Технологии
+                                    безопасности» Агеев Мансур Фаятович
+                                 </div>
+                                 <div class="slider-portfolio-mobile__text">
+                                    <strong>Вид выполняемых работ:</strong>
+                                    <p>Приведение огнестойкости конструкций к нормативному пределу посредством огнезащитной
+                                       обработки
+                                    </p>
+                                 </div>
+                                 <div class="slider-portfolio-mobile__text"><strong>Адрес:</strong> Санкт-Петербург, ул.
+                                    Высотная, 1
+                                 </div>
+                                 <div class="slider-portfolio-mobile__image">
+                                    <img src="img/slide_portfolio1.jpg" alt="alt">
+                                 </div>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="slider-portfolio-mobile__item">
+                                 <div class="slider-portfolio-mobile__head">
+                                    <div class="slider-portfolio-mobile__name">Лахта Центр</div>
+                                    <div class="slider-portfolio-mobile__logo">
+                                       <img src="img/logo_portfolio1.png" alt="alt">
+                                    </div>
+                                 </div>
+                                 <div class="slider-portfolio-mobile__size">Объем работ: 25 340 м2</div>
+                                 <div class="slider-portfolio-mobile__text"><strong>Заказчик:</strong> ООО «Технологии
+                                    безопасности» Агеев Мансур Фаятович
+                                 </div>
+                                 <div class="slider-portfolio-mobile__text">
+                                    <strong>Вид выполняемых работ:</strong>
+                                    <p>Приведение огнестойкости конструкций к нормативному пределу посредством огнезащитной
+                                       обработки
+                                    </p>
+                                 </div>
+                                 <div class="slider-portfolio-mobile__text"><strong>Адрес:</strong> Санкт-Петербург, ул.
+                                    Высотная, 1
+                                 </div>
+                                 <div class="slider-portfolio-mobile__image">
+                                    <img src="img/slide_portfolio1.jpg" alt="alt">
+                                 </div>
+                              </div>
+                           </li>
                         </ul>
-                    </div>
-                    <div class="tab-pane" id="tab2">
-                        <ul class="slider-portfolio">
-                            <li>
-                                <div class="slider-portfolio__item">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <ul class="slider-inner">
-                                                <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col_right-portfolio">
-                                            <div class="slider-portfolio__number">/02</div>
-                                            <div class="slider-portfolio__name">Ренессанс Плаза</div>
-                                            <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
-                                                ул. Марата, 69-71</div>
-                                            <div class="slider-portfolio__text">
-                                                <strong>Вид выполняемых работ:</strong>
-                                                <p>Приведение огнестойкости конструкций к нормативному пределу
-                                                    посредством огнезащитной обработки</p>
-                                            </div>
-                                            <div class="slider-portfolio__text">
-                                                <strong>Заказчик:</strong>
-                                                <p>ООО "Технологии безопасности". </p>
-                                                <p>Агеев Мансур Фаятович (руководитель проекта)</p>
-                                            </div>
-                                            <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
-                                            <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
-                                                    документе</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="slider-portfolio__item">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <ul class="slider-inner">
-                                                <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col_right-portfolio">
-                                            <div class="slider-portfolio__number">/03</div>
-                                            <div class="slider-portfolio__name">Ренессанс Плаза</div>
-                                            <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
-                                                ул. Марата, 69-71</div>
-                                            <div class="slider-portfolio__text">
-                                                <strong>Вид выполняемых работ:</strong>
-                                                <p>Приведение огнестойкости конструкций к нормативному пределу
-                                                    посредством огнезащитной обработки</p>
-                                            </div>
-                                            <div class="slider-portfolio__text">
-                                                <strong>Заказчик:</strong>
-                                                <p>ООО "Технологии безопасности". </p>
-                                                <p>Агеев Мансур Фаятович (руководитель проекта)</p>
-                                            </div>
-                                            <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
-                                            <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
-                                                    документе</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
+                        <ul class="tabs">
+                           <li class="active"><a href="#tab1">Офисные и торговые центры</a></li>
+                           <li><a href="#tab2">Заводы, ТЭЦ, ТЭС</a></li>
+                           <li><a href="#tab3">Производственные площадки и цехи</a></li>
+                           <li><a href="#tab4">Коммунальные объекты</a></li>
+                           <li><a href="#tab5">Стадионы и спортивные комплексы</a></li>
+                           <li><a href="#tab6">Ведомственные объекты</a></li>
                         </ul>
-                    </div>
-                    <div class="tab-pane" id="tab3">
-                        <ul class="slider-portfolio">
-                            <li>
-                                <div class="slider-portfolio__item">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <ul class="slider-inner">
+                        <div class="tab-container">
+                           <div class="tab-pane active" id="tab1">
+                              <ul class="slider-portfolio">
+                                 <li>
+                                    <div class="slider-portfolio__item">
+                                       <div class="row">
+                                          <div class="col-lg-6">
+                                             <ul class="slider-inner">
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col_right-portfolio">
-                                            <div class="slider-portfolio__number">/03</div>
-                                            <div class="slider-portfolio__name">Ренессанс Плаза</div>
-                                            <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
-                                                ул. Марата, 69-71</div>
-                                            <div class="slider-portfolio__text">
+                                                <li>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-lg-6 col_right-portfolio">
+                                             <div class="slider-portfolio__number">/01</div>
+                                             <div class="slider-portfolio__name">Ренессанс Плаза</div>
+                                             <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
+                                                ул. Марата, 69-71
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Вид выполняемых работ:</strong>
                                                 <p>Приведение огнестойкости конструкций к нормативному пределу
-                                                    посредством огнезащитной обработки</p>
-                                            </div>
-                                            <div class="slider-portfolio__text">
+                                                   посредством огнезащитной обработки
+                                                </p>
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Заказчик:</strong>
                                                 <p>ООО "Технологии безопасности". </p>
                                                 <p>Агеев Мансур Фаятович (руководитель проекта)</p>
-                                            </div>
-                                            <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
-                                            <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
-                                                    документе</span></a>
-                                        </div>
+                                             </div>
+                                             <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
+                                             <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
+                                             документе</span></a>
+                                          </div>
+                                       </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="slider-portfolio__item">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <ul class="slider-inner">
+                                 </li>
+                                 <li>
+                                    <div class="slider-portfolio__item">
+                                       <div class="row">
+                                          <div class="col-lg-6">
+                                             <ul class="slider-inner">
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col_right-portfolio">
-                                            <div class="slider-portfolio__number">/02</div>
-                                            <div class="slider-portfolio__name">Ренессанс Плаза</div>
-                                            <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
-                                                ул. Марата, 69-71</div>
-                                            <div class="slider-portfolio__text">
+                                                <li>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-lg-6 col_right-portfolio">
+                                             <div class="slider-portfolio__number">/02</div>
+                                             <div class="slider-portfolio__name">Ренессанс Плаза</div>
+                                             <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
+                                                ул. Марата, 69-71
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Вид выполняемых работ:</strong>
                                                 <p>Приведение огнестойкости конструкций к нормативному пределу
-                                                    посредством огнезащитной обработки</p>
-                                            </div>
-                                            <div class="slider-portfolio__text">
+                                                   посредством огнезащитной обработки
+                                                </p>
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Заказчик:</strong>
                                                 <p>ООО "Технологии безопасности". </p>
                                                 <p>Агеев Мансур Фаятович (руководитель проекта)</p>
-                                            </div>
-                                            <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
-                                            <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
-                                                    документе</span></a>
-                                        </div>
+                                             </div>
+                                             <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
+                                             <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
+                                             документе</span></a>
+                                          </div>
+                                       </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="tab-pane" id="tab4">
-                        <ul class="slider-portfolio">
-                            <li>
-                                <div class="slider-portfolio__item">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <ul class="slider-inner">
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="tab-pane" id="tab2">
+                              <ul class="slider-portfolio">
+                                 <li>
+                                    <div class="slider-portfolio__item">
+                                       <div class="row">
+                                          <div class="col-lg-6">
+                                             <ul class="slider-inner">
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col_right-portfolio">
-                                            <div class="slider-portfolio__number">/04</div>
-                                            <div class="slider-portfolio__name">Ренессанс Плаза</div>
-                                            <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
-                                                ул. Марата, 69-71</div>
-                                            <div class="slider-portfolio__text">
+                                             </ul>
+                                          </div>
+                                          <div class="col-lg-6 col_right-portfolio">
+                                             <div class="slider-portfolio__number">/02</div>
+                                             <div class="slider-portfolio__name">Ренессанс Плаза</div>
+                                             <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
+                                                ул. Марата, 69-71
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Вид выполняемых работ:</strong>
                                                 <p>Приведение огнестойкости конструкций к нормативному пределу
-                                                    посредством огнезащитной обработки</p>
-                                            </div>
-                                            <div class="slider-portfolio__text">
+                                                   посредством огнезащитной обработки
+                                                </p>
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Заказчик:</strong>
                                                 <p>ООО "Технологии безопасности". </p>
                                                 <p>Агеев Мансур Фаятович (руководитель проекта)</p>
-                                            </div>
-                                            <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
-                                            <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
-                                                    документе</span></a>
-                                        </div>
+                                             </div>
+                                             <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
+                                             <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
+                                             документе</span></a>
+                                          </div>
+                                       </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="slider-portfolio__item">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <ul class="slider-inner">
+                                 </li>
+                                 <li>
+                                    <div class="slider-portfolio__item">
+                                       <div class="row">
+                                          <div class="col-lg-6">
+                                             <ul class="slider-inner">
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col_right-portfolio">
-                                            <div class="slider-portfolio__number">/02</div>
-                                            <div class="slider-portfolio__name">Ренессанс Плаза</div>
-                                            <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
-                                                ул. Марата, 69-71</div>
-                                            <div class="slider-portfolio__text">
+                                             </ul>
+                                          </div>
+                                          <div class="col-lg-6 col_right-portfolio">
+                                             <div class="slider-portfolio__number">/03</div>
+                                             <div class="slider-portfolio__name">Ренессанс Плаза</div>
+                                             <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
+                                                ул. Марата, 69-71
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Вид выполняемых работ:</strong>
                                                 <p>Приведение огнестойкости конструкций к нормативному пределу
-                                                    посредством огнезащитной обработки</p>
-                                            </div>
-                                            <div class="slider-portfolio__text">
+                                                   посредством огнезащитной обработки
+                                                </p>
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Заказчик:</strong>
                                                 <p>ООО "Технологии безопасности". </p>
                                                 <p>Агеев Мансур Фаятович (руководитель проекта)</p>
-                                            </div>
-                                            <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
-                                            <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
-                                                    документе</span></a>
-                                        </div>
+                                             </div>
+                                             <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
+                                             <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
+                                             документе</span></a>
+                                          </div>
+                                       </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="tab-pane" id="tab5">
-                        <ul class="slider-portfolio">
-                            <li>
-                                <div class="slider-portfolio__item">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <ul class="slider-inner">
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="tab-pane" id="tab3">
+                              <ul class="slider-portfolio">
+                                 <li>
+                                    <div class="slider-portfolio__item">
+                                       <div class="row">
+                                          <div class="col-lg-6">
+                                             <ul class="slider-inner">
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col_right-portfolio">
-                                            <div class="slider-portfolio__number">/05</div>
-                                            <div class="slider-portfolio__name">Ренессанс Плаза</div>
-                                            <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
-                                                ул. Марата, 69-71</div>
-                                            <div class="slider-portfolio__text">
+                                             </ul>
+                                          </div>
+                                          <div class="col-lg-6 col_right-portfolio">
+                                             <div class="slider-portfolio__number">/03</div>
+                                             <div class="slider-portfolio__name">Ренессанс Плаза</div>
+                                             <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
+                                                ул. Марата, 69-71
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Вид выполняемых работ:</strong>
                                                 <p>Приведение огнестойкости конструкций к нормативному пределу
-                                                    посредством огнезащитной обработки</p>
-                                            </div>
-                                            <div class="slider-portfolio__text">
+                                                   посредством огнезащитной обработки
+                                                </p>
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Заказчик:</strong>
                                                 <p>ООО "Технологии безопасности". </p>
                                                 <p>Агеев Мансур Фаятович (руководитель проекта)</p>
-                                            </div>
-                                            <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
-                                            <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
-                                                    документе</span></a>
-                                        </div>
+                                             </div>
+                                             <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
+                                             <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
+                                             документе</span></a>
+                                          </div>
+                                       </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="slider-portfolio__item">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <ul class="slider-inner">
+                                 </li>
+                                 <li>
+                                    <div class="slider-portfolio__item">
+                                       <div class="row">
+                                          <div class="col-lg-6">
+                                             <ul class="slider-inner">
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col_right-portfolio">
-                                            <div class="slider-portfolio__number">/02</div>
-                                            <div class="slider-portfolio__name">Ренессанс Плаза</div>
-                                            <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
-                                                ул. Марата, 69-71</div>
-                                            <div class="slider-portfolio__text">
+                                             </ul>
+                                          </div>
+                                          <div class="col-lg-6 col_right-portfolio">
+                                             <div class="slider-portfolio__number">/02</div>
+                                             <div class="slider-portfolio__name">Ренессанс Плаза</div>
+                                             <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
+                                                ул. Марата, 69-71
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Вид выполняемых работ:</strong>
                                                 <p>Приведение огнестойкости конструкций к нормативному пределу
-                                                    посредством огнезащитной обработки</p>
-                                            </div>
-                                            <div class="slider-portfolio__text">
+                                                   посредством огнезащитной обработки
+                                                </p>
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Заказчик:</strong>
                                                 <p>ООО "Технологии безопасности". </p>
                                                 <p>Агеев Мансур Фаятович (руководитель проекта)</p>
-                                            </div>
-                                            <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
-                                            <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
-                                                    документе</span></a>
-                                        </div>
+                                             </div>
+                                             <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
+                                             <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
+                                             документе</span></a>
+                                          </div>
+                                       </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="tab-pane" id="tab6">
-                        <ul class="slider-portfolio">
-                            <li>
-                                <div class="slider-portfolio__item">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <ul class="slider-inner">
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="tab-pane" id="tab4">
+                              <ul class="slider-portfolio">
+                                 <li>
+                                    <div class="slider-portfolio__item">
+                                       <div class="row">
+                                          <div class="col-lg-6">
+                                             <ul class="slider-inner">
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col_right-portfolio">
-                                            <div class="slider-portfolio__number">/06</div>
-                                            <div class="slider-portfolio__name">Ренессанс Плаза</div>
-                                            <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
-                                                ул. Марата, 69-71</div>
-                                            <div class="slider-portfolio__text">
+                                             </ul>
+                                          </div>
+                                          <div class="col-lg-6 col_right-portfolio">
+                                             <div class="slider-portfolio__number">/04</div>
+                                             <div class="slider-portfolio__name">Ренессанс Плаза</div>
+                                             <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
+                                                ул. Марата, 69-71
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Вид выполняемых работ:</strong>
                                                 <p>Приведение огнестойкости конструкций к нормативному пределу
-                                                    посредством огнезащитной обработки</p>
-                                            </div>
-                                            <div class="slider-portfolio__text">
+                                                   посредством огнезащитной обработки
+                                                </p>
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Заказчик:</strong>
                                                 <p>ООО "Технологии безопасности". </p>
                                                 <p>Агеев Мансур Фаятович (руководитель проекта)</p>
-                                            </div>
-                                            <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
-                                            <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
-                                                    документе</span></a>
-                                        </div>
+                                             </div>
+                                             <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
+                                             <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
+                                             документе</span></a>
+                                          </div>
+                                       </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="slider-portfolio__item">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <ul class="slider-inner">
+                                 </li>
+                                 <li>
+                                    <div class="slider-portfolio__item">
+                                       <div class="row">
+                                          <div class="col-lg-6">
+                                             <ul class="slider-inner">
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
                                                 <li>
-                                                    <div class="slider-inner__item">
-                                                        <img src="img/portfolio1.jpg" alt="alt">
-                                                    </div>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col_right-portfolio">
-                                            <div class="slider-portfolio__number">/02</div>
-                                            <div class="slider-portfolio__name">Ренессанс Плаза</div>
-                                            <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
-                                                ул. Марата, 69-71</div>
-                                            <div class="slider-portfolio__text">
+                                             </ul>
+                                          </div>
+                                          <div class="col-lg-6 col_right-portfolio">
+                                             <div class="slider-portfolio__number">/02</div>
+                                             <div class="slider-portfolio__name">Ренессанс Плаза</div>
+                                             <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
+                                                ул. Марата, 69-71
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Вид выполняемых работ:</strong>
                                                 <p>Приведение огнестойкости конструкций к нормативному пределу
-                                                    посредством огнезащитной обработки</p>
-                                            </div>
-                                            <div class="slider-portfolio__text">
+                                                   посредством огнезащитной обработки
+                                                </p>
+                                             </div>
+                                             <div class="slider-portfolio__text">
                                                 <strong>Заказчик:</strong>
                                                 <p>ООО "Технологии безопасности". </p>
                                                 <p>Агеев Мансур Фаятович (руководитель проекта)</p>
-                                            </div>
-                                            <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
-                                            <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
-                                                    документе</span></a>
-                                        </div>
+                                             </div>
+                                             <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
+                                             <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
+                                             документе</span></a>
+                                          </div>
+                                       </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="articles">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col_pr">
-                        <h2 class="title-page">Полезные материалы</h2>
-                        <div class="descr-title">Статьи от экспертов в области антикоррозийной защиты</div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="item-article">
-                            <a href="#" class="item-article__image">
-                                <img src="img/article1.jpg" alt="alt">
-                            </a>
-                            <div class="item-article__content">
-                                <div class="item-article__date">27.07</div>
-                                <a href="#" class="item-article__name">Особенности антикоррозийной обработки мостов</a>
-                                <ul class="tags-article">
-                                    <li>
-                                        <a href="#">Антикоррозионная защита</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Обработка металла</a>
-                                    </li>
-                                </ul>
-                            </div>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="tab-pane" id="tab5">
+                              <ul class="slider-portfolio">
+                                 <li>
+                                    <div class="slider-portfolio__item">
+                                       <div class="row">
+                                          <div class="col-lg-6">
+                                             <ul class="slider-inner">
+                                                <li>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
+                                                </li>
+                                                <li>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-lg-6 col_right-portfolio">
+                                             <div class="slider-portfolio__number">/05</div>
+                                             <div class="slider-portfolio__name">Ренессанс Плаза</div>
+                                             <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
+                                                ул. Марата, 69-71
+                                             </div>
+                                             <div class="slider-portfolio__text">
+                                                <strong>Вид выполняемых работ:</strong>
+                                                <p>Приведение огнестойкости конструкций к нормативному пределу
+                                                   посредством огнезащитной обработки
+                                                </p>
+                                             </div>
+                                             <div class="slider-portfolio__text">
+                                                <strong>Заказчик:</strong>
+                                                <p>ООО "Технологии безопасности". </p>
+                                                <p>Агеев Мансур Фаятович (руководитель проекта)</p>
+                                             </div>
+                                             <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
+                                             <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
+                                             документе</span></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <div class="slider-portfolio__item">
+                                       <div class="row">
+                                          <div class="col-lg-6">
+                                             <ul class="slider-inner">
+                                                <li>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
+                                                </li>
+                                                <li>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-lg-6 col_right-portfolio">
+                                             <div class="slider-portfolio__number">/02</div>
+                                             <div class="slider-portfolio__name">Ренессанс Плаза</div>
+                                             <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
+                                                ул. Марата, 69-71
+                                             </div>
+                                             <div class="slider-portfolio__text">
+                                                <strong>Вид выполняемых работ:</strong>
+                                                <p>Приведение огнестойкости конструкций к нормативному пределу
+                                                   посредством огнезащитной обработки
+                                                </p>
+                                             </div>
+                                             <div class="slider-portfolio__text">
+                                                <strong>Заказчик:</strong>
+                                                <p>ООО "Технологии безопасности". </p>
+                                                <p>Агеев Мансур Фаятович (руководитель проекта)</p>
+                                             </div>
+                                             <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
+                                             <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
+                                             документе</span></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="tab-pane" id="tab6">
+                              <ul class="slider-portfolio">
+                                 <li>
+                                    <div class="slider-portfolio__item">
+                                       <div class="row">
+                                          <div class="col-lg-6">
+                                             <ul class="slider-inner">
+                                                <li>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
+                                                </li>
+                                                <li>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-lg-6 col_right-portfolio">
+                                             <div class="slider-portfolio__number">/06</div>
+                                             <div class="slider-portfolio__name">Ренессанс Плаза</div>
+                                             <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
+                                                ул. Марата, 69-71
+                                             </div>
+                                             <div class="slider-portfolio__text">
+                                                <strong>Вид выполняемых работ:</strong>
+                                                <p>Приведение огнестойкости конструкций к нормативному пределу
+                                                   посредством огнезащитной обработки
+                                                </p>
+                                             </div>
+                                             <div class="slider-portfolio__text">
+                                                <strong>Заказчик:</strong>
+                                                <p>ООО "Технологии безопасности". </p>
+                                                <p>Агеев Мансур Фаятович (руководитель проекта)</p>
+                                             </div>
+                                             <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
+                                             <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
+                                             документе</span></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <div class="slider-portfolio__item">
+                                       <div class="row">
+                                          <div class="col-lg-6">
+                                             <ul class="slider-inner">
+                                                <li>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
+                                                </li>
+                                                <li>
+                                                   <div class="slider-inner__item">
+                                                      <img src="img/portfolio1.jpg" alt="alt">
+                                                   </div>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-lg-6 col_right-portfolio">
+                                             <div class="slider-portfolio__number">/02</div>
+                                             <div class="slider-portfolio__name">Ренессанс Плаза</div>
+                                             <div class="slider-portfolio__text"><strong>Адрес:</strong> Санкт-Петербург,
+                                                ул. Марата, 69-71
+                                             </div>
+                                             <div class="slider-portfolio__text">
+                                                <strong>Вид выполняемых работ:</strong>
+                                                <p>Приведение огнестойкости конструкций к нормативному пределу
+                                                   посредством огнезащитной обработки
+                                                </p>
+                                             </div>
+                                             <div class="slider-portfolio__text">
+                                                <strong>Заказчик:</strong>
+                                                <p>ООО "Технологии безопасности". </p>
+                                                <p>Агеев Мансур Фаятович (руководитель проекта)</p>
+                                             </div>
+                                             <div class="slider-portfolio__size">Объем работ: 25 340 м2</div>
+                                             <a href="#" class="btn-main"><span>Скачать все реализованные проекты в одном
+                                             документе</span></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="item-article">
-                            <a href="#" class="item-article__image">
-                                <img src="img/article2.jpg" alt="alt">
-                            </a>
-                            <div class="item-article__content">
-                                <div class="item-article__date">27.07</div>
-                                <a href="#" class="item-article__name">Как отличить качественную антикоррозийную защиту
+                     </div>
+                  </div>
+                  <div class="articles">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-lg-10 col_pr">
+                              <h2 class="title-page">Полезные материалы</h2>
+                              <div class="descr-title">Статьи от экспертов в области антикоррозийной защиты</div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-lg-6">
+                              <div class="item-article">
+                                 <a href="#" class="item-article__image">
+                                 <img src="img/article1.jpg" alt="alt">
+                                 </a>
+                                 <div class="item-article__content">
+                                    <div class="item-article__date">27.07</div>
+                                    <a href="#" class="item-article__name">Особенности антикоррозийной обработки мостов</a>
+                                    <ul class="tags-article">
+                                       <li>
+                                          <a href="#">Антикоррозионная защита</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Обработка металла</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="item-article">
+                                 <a href="#" class="item-article__image">
+                                 <img src="img/article2.jpg" alt="alt">
+                                 </a>
+                                 <div class="item-article__content">
+                                    <div class="item-article__date">27.07</div>
+                                    <a href="#" class="item-article__name">Как отличить качественную антикоррозийную защиту
                                     от халтуры </a>
-                                <ul class="tags-article">
-                                    <li>
-                                        <a href="#">Антикоррозионная защита</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Обработка металла</a>
-                                    </li>
-                                </ul>
-                            </div>
+                                    <ul class="tags-article">
+                                       <li>
+                                          <a href="#">Антикоррозионная защита</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Обработка металла</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="contacts">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col_pr">
-                        <div class="contacts-block">
-                            <div class="contacts-block__title">Контакты:</div>
-                            <p>Санкт-Петербург, </p>
-                            <p>ул. Кантемировская д.12, лит. А, пом. 10-Н</p>
-                            <p><a href="mailto:info@prima-piter.ru ">info@prima-piter.ru </a></p>
-                            <div class="contacts-block__title">Телефон::</div>
-                            <p><a href="tel:+7 (812) 920-32-38">+7 (812) 920-32-38</a></p>
-                            <div class="contacts-block__title">Время работы:</div>
-                            <p>Пн-Вс с 10:00 до 20:00</p>
-                            <p>Без выходных</p>
+                        <div class="align_center">
+                           <a href="#" class="btn-transparent">Смотреть все материалы</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div id="map"></div>
-        </div>
-
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2">
-                        <ul class="footer-menu">
-                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">О компании</a></li>
-                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Наши объекты </a></li>
-                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Как мы работаем?</a>
-                            </li>
-                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Оборудование </a></li>
-                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Лицензии</a></li>
-                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Блог</a></li>
-                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Контакты</a></li>
-                        </ul>
-                        <ul class="list-language ">
-                            <li class="active"><a href="#">RU</a><span class="color">|</span></li>
-                            <li><a class="color" href="#">EN</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 offset-2">
-
-                        <ul class="service-footer">
-                            <li class="service-footer__item "><a href="#"
-                                    class="service-footer__link service-title">Услуги</a></li>
-                            <li class="service-footer__item"><a href="#" class="service-footer__link">Антикоррозийная
-                                    защита конструкций и сооружений</a></li>
-                            <li class="service-footer__item"><a href="#" class="service-footer__link">Огнезащита
+                     </div>
+                  </div>
+                  <div class="contacts">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-lg-4 col_pr">
+                              <div class="contacts-block">
+                                 <div class="contacts-block__title">Контакты:</div>
+                                 <p>Санкт-Петербург, </p>
+                                 <p>ул. Кантемировская д.12, лит. А, пом. 10-Н</p>
+                                 <p><a href="mailto:info@prima-piter.ru ">info@prima-piter.ru </a></p>
+                                 <div class="contacts-block__title">Телефон::</div>
+                                 <p><a href="tel:+7 (812) 920-32-38">+7 (812) 920-32-38</a></p>
+                                 <div class="contacts-block__title">Время работы:</div>
+                                 <p>Пн-Вс с 10:00 до 20:00</p>
+                                 <p>Без выходных</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="map"></div>
+                  </div>
+                  <footer class="footer">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-lg-2 col-md-3">
+                              <ul class="footer-menu">
+                                 <li class="footer-menu__item"><a href="#" class="footer-menu__link">О компании</a></li>
+                                 <li class="footer-menu__item"><a href="#" class="footer-menu__link">Наши объекты </a></li>
+                                 <li class="footer-menu__item"><a href="#" class="footer-menu__link">Как мы работаем?</a>
+                                 </li>
+                                 <li class="footer-menu__item"><a href="#" class="footer-menu__link">Оборудование </a></li>
+                                 <li class="footer-menu__item"><a href="#" class="footer-menu__link">Лицензии</a></li>
+                                 <li class="footer-menu__item"><a href="#" class="footer-menu__link">Блог</a></li>
+                                 <li class="footer-menu__item"><a href="#" class="footer-menu__link">Контакты</a></li>
+                              </ul>
+                              <ul class="list-language ">
+                                 <li class="active"><a href="#">RU</a><span>|</span></li>
+                                 <li><a href="#">EN</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-lg-4 offset-lg-2 col-md-4 offset-md-1">
+                              <div class="footer__title">Услуги</div>
+                              <ul class="service-footer">
+                                 <li class="service-footer__item"><a href="#" class="service-footer__link">Антикоррозийная
+                                    защита конструкций и сооружений</a>
+                                 </li>
+                                 <li class="service-footer__item"><a href="#" class="service-footer__link">Огнезащита
                                     металлоконструкций (обеспечение<br>
-                                    необходимого предела огнестойкости по ФЗ-123) </a></li>
-                            <li class="service-footer__item"><a href="#" class="service-footer__link">Аренда
-                                    спецтехники</a></li>
-                            <li class="service-footer__item"><a href="#" class="service-footer__link">Проектирование и
+                                    необходимого предела огнестойкости по ФЗ-123) </a>
+                                 </li>
+                                 <li class="service-footer__item"><a href="#" class="service-footer__link">Аренда
+                                    спецтехники</a>
+                                 </li>
+                                 <li class="service-footer__item"><a href="#" class="service-footer__link">Проектирование и
                                     расчет огнезащиты
-                                </a></li>
-                            <li class="service-footer__item"><a href="#" class="service-footer__link">Огнезащита
+                                    </a>
+                                 </li>
+                                 <li class="service-footer__item"><a href="#" class="service-footer__link">Огнезащита
                                     деревянных конструкций<br>
-                                    и текстильных материалов</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 offset-1">
-                        <ul class="contacts__footer">
-                            <li class="contacts__item "><a href="#" class="contacts__link contacts-title ">Контакты:</a>
-                            </li>
-                            <li class="contacts__item"><a href="#" class="contacts__link">Санкт-Петербург,<br>
-                                    ул. Кантемировская д.12, лит. А,<br>пом. 10-Н<br> <a
-                                        href="mailto:info@prima-piter.ru">info@prima-piter.ru</a> </a></li>
-                            <li class="contacts__item "><a href="#" class="contacts__link contacts-title">Телефон:</a>
-                            </li>
-                            <li class="contacts__item"><a href="tel:+78129203238" class="contacts__link">+7 (812)
-                                    920-32-38</a></li>
-                            <li class="contacts__item "><a href="#" class="contacts__link contacts-title">Время
-                                    работы:</a></li>
-                            <li class="contacts__item"><a href="#" class="contacts__link">Пн-Вс с 10:00 до 20:00<br>
-                                    Без выходных</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <div class="associate">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="associate__text">
-                            Политика конфиденциальности
-
+                                    и текстильных материалов</a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-md-3 offset-md-1">
+                              <div class="footer__title">Контакты:</div>
+                              <p>Санкт-Петербург, </p>
+                              <p>ул. Кантемировская д.12, лит. А, </p>
+                              <p><a href="mailto:info@prima-piter.ru">info@prima-piter.ru </a></p>
+                              <div class="footer__title">Телефон:</div>
+                              <p><a href="tel:+7 (812) 920-32-38a-piter.ru">+7 (812) 920-32-38</a></p>
+                              <div class="footer__title">Время работы:</div>
+                              <p>Пн-Вс с 10:00 до 20:00</p>
+                              <p>Без выходных</p>
+                           </div>
                         </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="associate__text">
-                            г. Симферополь © Copyright 2020 г.
-
-
+                     </div>
+                  </footer>
+                  <div class="associate">
+                     <div class="container">
+                        <div class="row align-items-center">
+                           <div class="col-md-3">
+                              <div class="associate__text">
+                                 <a href="#"> Политика конфиденциальности</a>
+                              </div>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="associate__text">
+                                 г. Симферополь © Copyright 2020 г.
+                              </div>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="associate__make">
+                                 Сделано в <img src="img/footer/sheer.png" alt="">
+                              </div>
+                           </div>
+                           <div class="col-md-3 align_right col-sm-6">
+                              <a href="#" class="btn_top"><i class="fa fa-arrow-up"></i></a>
+                           </div>
                         </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="associate__make">
-                            Сделано в <img src="img/footer/sheer.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-3 align_right col-sm-6">
-                        <a href="#" class="btn_top"><i class="fa fa-arrow-up"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    <script src="libs/jquery/jquery-1.11.1.min.js"></script>
-    <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
-    <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-    <script src="libs/mask/jquery.maskedinput.js"></script>
-    <script src="libs/slick-1.5.9/slick/slick.min.js"></script>
-    <script src="libs/scroll2id/PageScroll2id.min.js"></script>
-    <script src="js/common.js?ver=1.7"></script>
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-    <script>
-        $(document).ready(function () {
-            ymaps.ready(init);
-
-            function init() {
-                var myMap = new ymaps.Map('map', {
-                    center: [59.983995, 30.331139],
-                    zoom: 15
-                }, {
-                    searchControlProvider: 'yandex#search'
-                }),
-
-
-                    myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-                        balloonContent: '<p>г. Симферополь, ул. Москалева,  13/2</p>'
-                    }, {
-                        // Опции.
-                        // Необходимо указать данный тип макета.
-                        iconLayout: 'default#image',
-                        // Своё изображение иконки метки.
-                        iconImageHref: 'img/pin3.png',
-                        iconImageSize: [55, 58],
-                    });
-                myMap.controls.remove('searchControl');
-                myMap.behaviors.disable('scrollZoom');
-                myMap.geoObjects.add(myPlacemark);
-
-            }
-        });
-    </script>
-    <!-- Yandex.Metrika counter -->
-    <!-- /Yandex.Metrika counter -->
-    <!-- Google Analytics counter -->
-    <!-- /Google Analytics counter -->
-</body>
-
-</html>
+                     </div>
+                  </div>
+               </div>
+               <script src="libs/jquery/jquery-1.11.1.min.js"></script>
+               <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+               <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+               <script src="libs/mask/jquery.maskedinput.js"></script>
+               <script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+               <script src="libs/scroll2id/PageScroll2id.min.js"></script>
+               <script src="js/common.js?ver=1.15"></script>
+               <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+               <script>
+                  $(document).ready(function () {
+                      ymaps.ready(init);
+                  
+                      function init() {
+                          var myMap = new ymaps.Map('map', {
+                              center: [59.983995, 30.331139],
+                              zoom: 15
+                          }, {
+                              searchControlProvider: 'yandex#search'
+                          }),
+                  
+                  
+                          myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+                              balloonContent: '<p>г. Симферополь, ул. Москалева,  13/2</p>'
+                          }, {
+                      // Опции.
+                      // Необходимо указать данный тип макета.
+                      iconLayout: 'default#image',
+                      // Своё изображение иконки метки.
+                      iconImageHref: 'img/pin3.png',
+                      iconImageSize: [55, 58],
+                  });
+                          myMap.controls.remove('searchControl');
+                          myMap.behaviors.disable('scrollZoom');
+                          myMap.geoObjects.add(myPlacemark);
+                  
+                      }
+                  });
+               </script>
+               <!-- Yandex.Metrika counter -->
+               <!-- /Yandex.Metrika counter -->
+               <!-- Google Analytics counter -->
+               <!-- /Google Analytics counter -->
+            </body>
+         </html>
