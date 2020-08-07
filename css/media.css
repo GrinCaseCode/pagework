@@ -95,6 +95,16 @@
 .card-technology__text {
     height: 160px;
 }
+.rental__circle {
+    left: 84%;
+    top: 130px;
+    }
+    .equipment-text br {
+        display: none;
+    }
+    .equipment__title br {
+        display: none;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -441,7 +451,65 @@ overflow: hidden;
     font-size: 16px;
     line-height: 22px;
 }
-
+.rental__circle {
+   top: 0;
+   left: auto;
+   right: 0;
+}
+.rental__img {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+.tech__product > .tech__btn {
+    margin: 0;
+}
+.tech__product {
+    padding: 15px;
+}
+.tech__items {
+    height: auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tech-item {
+    width: 33%;
+}
+.tech-item__link {
+    margin: 0 5px;
+}
+.tech__title {
+    margin-bottom: 20px;
+}
+.equipment__items {
+    margin: 0px 0px 25px 0px;
+}
+.equipment-subtitle {
+    margin: 30px 0px 15px 20px;
+}
+.equipment-text {
+    margin-left: 20px;
+}
+.footer .list-language {
+    justify-content: flex-start;
+}
+.associate {
+    font-size: 14px;
+}
+.rental__items {
+    padding-bottom: 50px;
+}
+.rental {
+    padding-top: 60px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -483,6 +551,65 @@ overflow: hidden;
 .item-article__date {
     font-size: 13px;
     top: 8px;
+}
+.rental__title {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    }
+    .rental__btn span {
+    width: 298px;
+}
+.tech-item__link {
+    font-size: 12px;
+}
+.tech__title {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 26px;
+}
+.tech-item {
+    width: 49%;
+}
+.tech__items {
+    justify-content: space-between;
+}
+.tech__btn {
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+.tech__btn .btn-main {
+    margin-bottom: 30px;
+}
+.tech__btn .btn-main span {
+    width: 300px;
+    max-width: 100%;
+}
+.equipment__title {
+    font-size: 26px;
+    margin: 0px 0px 34px 0px;
+}
+.equipment-officials {
+    padding-top: 25px;
+}
+.footer .list-language {
+    justify-content: center;
+}
+.associate .align_right {
+    text-align: center;
+}
+.associate {
+    text-align: center;
+}
+.associate__text {
+    padding: 7px 0;
+}
+.associate__make {
+    margin-top: 10px;
+    justify-content: center;
+    margin-bottom: 7px;
 }
 }
 @media only screen and (max-width : 575px) {
@@ -591,6 +718,44 @@ overflow: hidden;
 .card-technology__image {
     height: 240px;
 }
+.rental__title {
+    font-size: 25px;
+    line-height: 35px;
+    }
+    .rental__circle {
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .rental__item {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 0px 0px 0px 40px;
+}
+.rental__items {
+    padding-bottom: 0px;
+}
+.hose__title {
+    padding-top: 0px;
+}
+.hose-list__item {
+    margin-bottom: 20px;
+}
+.equipment-subtitle {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.equipment-text {
+    font-size: 13px;
+    line-height: 18px;
+}
+.equipment__img {
+    width: 75px;
+    height: 75px;
+    }
+    .equipment {
+        padding-bottom: 40px;
+    }
 }
 @media only screen and (max-width : 350px) {
 .logo img {

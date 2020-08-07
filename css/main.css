@@ -1469,7 +1469,7 @@ line-height: 16px;
 .btn_top {
 	font-size: 24px;
 	position: relative;
-	color: #fff;
+	color: #132c47;
 	width: 42px;
 	height: 42px;
 	text-align: center;
@@ -1481,17 +1481,14 @@ line-height: 16px;
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
-	background-color: #666;
+	background-color: #fff;
 	z-index: 300;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
-.btn_top i {
-color: #fff;
-}
 .btn_top:hover {
-	background-color: #000;
+	transform: scale(1.1);
 }
 .align_right {
 	text-align: right;
@@ -2064,6 +2061,8 @@ transition: all 0.3s;
 	font-size: 45px;
 	font-weight: 400;
 	line-height: 55px;
+	position: relative;
+	z-index: 2;
 	
 }
 .row {
@@ -2102,7 +2101,7 @@ z-index: 1;
 	position: absolute;
 	display: block;
 	    content: "\f00c";
-	top: 0;
+	top: -4px;
 	left: 0;
 width: 31px;
 height: 31px;
@@ -2174,8 +2173,9 @@ background-image: linear-gradient(to bottom, #63a6ce 0%, #1a749e 100%);
 	font-family: "Geometria-Bold";
 	font-size: 20px;
 	font-weight: 700;
-
+position: relative;
 white-space: nowrap;
+top: -5px;
 }
 
 .rental__circle .circle__word {
@@ -2216,9 +2216,13 @@ white-space: nowrap;
 	padding: 0px 0px 0px 12px;
 	max-width: 100% ;
 	height: 52px;
+	color: #000;
+	font-size: 14px;
 	box-shadow: 0 7px 16px rgba(104, 123, 140, 0.2);
 	border-radius: 6px;
 	background-color: #ffffff;
+	text-transform: uppercase;
+	font-family: "Geometria-Medium";
 }
 
 
@@ -2237,18 +2241,12 @@ white-space: nowrap;
 	box-shadow: 0 3px 8px rgba(104, 123, 140, 0.17);
 	border-radius: 8px;
 	background-color: #ffffff;
-	height: 519px;
+	min-height: 515px;
 }
 
-.tech-tabs__pane:first-child {
+.tech__product:first-child {
 	display: block;
 }
-
-.tech-tabs__pane {
-	
-	
-}
-
 
 .tech__img {
 	margin: 0px 0px 43px 0px;
@@ -2296,6 +2294,14 @@ white-space: nowrap;
 	padding: 58px 0px 72px 0px;
 	background: url('../img/equipment/equipment-background.jpg') no-repeat center/cover;
 }
+.equipment-officials {
+	padding-top: 65px;
+}
+.equipment__logo img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
 
 .equipment__title {
 	color: #0d3559;
@@ -2310,7 +2316,7 @@ white-space: nowrap;
 
 .equipment__items {
 	display: flex;
-	margin: 0px 0px 123px 0px;
+	margin: 0px 0px 68px 0px;
 }
 .equipment__img {
 	transition: .2s all;
@@ -2349,9 +2355,9 @@ white-space: nowrap;
 	line-height: 24px;
 	margin: 0px 0px 0px 30px;
 }
-
-
-
+.equipment-text__block {
+	flex: 1;
+}
 .equipment__img img {
 	transition: .2s all;
 	max-width: 100%;
@@ -2363,14 +2369,21 @@ white-space: nowrap;
 }
 
 .equipment-officials__block {
-	padding: 126px 0px 0px 0px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
 }
 
-.equipment__logo:last-child {
-	margin: 0px 0px 33px 0px;
+.equipment__logo {
+	max-width: 30%;
+}
+.equipment__logo img {
+	max-width: 100%;
+	height: auto;
 }
 
 /* footer */
@@ -2378,6 +2391,7 @@ white-space: nowrap;
 .footer  {
 	padding: 36px 0px 38px 0px;
 	background-color: #132c47;
+	color: #fff;
 	border-bottom: 1px solid #6aa6c7;
 }
 
@@ -2385,10 +2399,7 @@ white-space: nowrap;
 	transition: .3s all;
 }
 
-.footer a:hover {
-	display: block;
-	color: #6aa6c7;
-}
+
 
 
 .footer-menu {
@@ -2399,9 +2410,12 @@ white-space: nowrap;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 40px;
+	border-bottom: 1px transparent solid;
 	
 }
-
+.footer-menu__item a:hover {
+	border-color: #fff;
+}
 .list-language .color {
 	color: #fff;
 }
@@ -2418,12 +2432,14 @@ font-family: "Geometria";
 font-size: 14px;
 font-weight: 400;
 line-height: 21px;	
-
+border-bottom: 1px transparent solid;
+}
+.service-footer__item a:hover {
+	border-color: #fff;
 }
 .contacts__item a {
 	display: inline-block;
 
-	margin: 31px 0px 19px 0px;
 }
 
 .contacts__item .contacts-title  {
@@ -2432,6 +2448,10 @@ line-height: 21px;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 28px;
+}
+.contacts-title {
+	margin-top: 25px;
+	margin-bottom: 10px;
 }
 .contacts__item a:first-child {
 	margin-top: 0px;
@@ -2446,7 +2466,15 @@ line-height: 21px;
 	font-weight: 400;
 	line-height: 21px;
 }
-.contacts__link {
+.contacts__item:first-child .contacts-title {
+	margin-top: 0;
+}
+.footer__title {
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 10px;
+	font-family: "Geometria-Medium";
+	color: #fff;
 }
 
 
@@ -2460,8 +2488,6 @@ line-height: 21px;
 }
 
 .associate__text {
-	display: flex;
-	align-items: center;
 	font-size: 13px;
 	font-weight: 400;
 	margin: 5px 0px 0px 0px;
@@ -2473,4 +2499,52 @@ line-height: 21px;
 
 .associate__make img {
 	margin: 0px 0px 0px 12px;
+}
+.calculation_rent .title-page span {
+	display: inline;
+}
+.calculation_rent {
+	padding-top: 30px;
+	background-image: url(../img/bg_calcrent.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.calculation_rent .title-page {
+    max-width: 590px;
+}
+.calculation_rent .block-form .circle-btn {
+	margin-right: 19px;
+	z-index: 2;
+}
+.align_center {
+	text-align: center;
+}
+.btn-transparent {
+	font-size: 14px;
+	padding: 0 25px;
+	height: 52px;
+	color: #6ba6c7;
+	border: 1px #6ba6c7 solid;
+	border-radius: 8px;
+	font-family: "Geometria-Medium";
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.btn-transparent:hover {
+	background-color: #6ba6c7;
+	color: #fff;
+}
+.articles .btn-transparent {
+	margin-top: 55px;
 }

@@ -133,7 +133,7 @@ $(".input-phone").mask("+7 (999) 999-99-99");
 		event.preventDefault();
 		$(".tech__items li").removeClass('active');
 		$(this).parent().addClass('active');
-		$(".tech__product").fadeOut(200);
+		$(".tech__product").fadeOut(0);
 		var selectTab4 = $(this).attr("href");
 		$(selectTab4).fadeIn(200);
 	});
