@@ -507,6 +507,26 @@ overflow: hidden;
 .rental {
     padding-top: 60px;
 }
+.content-linksblog {
+    width: 100%;
+    margin-top: 30px;
+}
+.step-main::after {
+    display: none;
+}
+.contract__link {
+    font-size: 16px;
+}
+
+.prima-contact {
+    margin-top: 35px;
+}
+.prima .block-form {
+    margin-bottom: 50px;
+}
+.prima #map {
+    margin-top: 0;
+}
 }
 
 /* Small Devices, Tablets */
@@ -608,6 +628,40 @@ overflow: hidden;
     justify-content: center;
     margin-bottom: 7px;
 }
+.text-gray p {
+    font-size: 15px;
+}
+.text-gray {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    padding: 30px;
+    }
+    .main-numbers {
+        padding-top: 30px;
+        padding-right: 30px;
+    }
+    .row_top-article {
+    margin-bottom: 30px;
+}
+.item-step {
+    margin-top: 40px;
+    }
+    .item-step__title {
+        margin-bottom: 20px;
+    }
+    .steps-padding {
+        padding-bottom: 50px;  
+    }
+    .contract__link {
+        margin-bottom: 40px;
+    }
+    .contract {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .prima .block-form {
+        margin-top: 30px;
+    }
 }
 @media only screen and (max-width : 575px) {
 .footer {
@@ -693,6 +747,36 @@ overflow: hidden;
 }
 .rental__btn {
     text-align: center;
+}
+.text-gray {
+    padding: 25px 15px;
+}
+.main-numbers {
+    padding-right: 0;
+}
+.step-main__number span {
+    font-size: 52px;
+    line-height: 32.06px;
+    padding-bottom: 7px;
+    }
+    .step-main__number {
+    font-size: 36px;
+    line-height: 28px;
+    margin-right: 15px;
+}
+.step-main {
+    padding: 15px 15px;
+    border-width: 5px;
+    }
+    .step-main p {
+    font-size: 14px;
+    line-height: 19px;
+}
+.contract__link {
+    margin-left: 85px;
+}
+.contract__link::before {
+    top: 2px;
 }
 }
 @media only screen and (max-width : 395px) {

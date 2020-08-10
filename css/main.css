@@ -844,6 +844,7 @@ max-width: 97%;
 	position: relative;
 	margin-bottom: 17px;
 }
+.item-form textarea,
 .item-form input {
 	height: 57px;
 box-shadow: inset 0 2px 5px rgba(170, 185, 192, 0.25);
@@ -852,6 +853,7 @@ background-color: #f6f7f7;
 width: 100%;
 font-size: 14px;
 	padding-left: 59px;
+	padding-right: 15px;
 	border: none;
 	font-family: "Geometria";
 }
@@ -2660,3 +2662,340 @@ border-bottom: 1px transparent solid;
 	z-index: -1;
   }
 
+/*article*/
+.main-blog__links{
+	display: flex;
+	margin: 18px 0px 17px 30px;
+}
+.main-blog__links li{
+	margin-right: 10px;
+}
+.main-link{
+	color: #000000;
+	font-size: 14px;
+	transition: all 0.3s;
+}
+.main-link:hover{
+	text-decoration: underline;
+	color: #6aa6c7;
+}
+.main-info{
+	max-width: 750px;
+	margin-bottom: 46px;
+}
+.main-image{
+	width: 100%;
+}
+.main-image img{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+.main-caption{
+	color: #0d3559;
+	font-family: "Geometria-Bold";
+	font-size: 30px;
+	line-height: 33px;
+	padding: 31px 0px 34px 0px;
+}
+
+.main-caption__content{
+	color: #000000;
+	font-size: 14px;
+	line-height: 21px;
+}
+.main-caption__content p{
+	margin-bottom: 32px;
+}
+.content-linksblog{
+	background-color: #f6f7f7;
+	padding: 15px 22px 35px 21px;
+}
+
+.content-linksblog__caption{
+	color: #000000;
+	font-family: "Geometria-Medium";
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.content-linksblog__list a{
+	color: #3b8ab9;
+	font-size: 14px;
+	line-height: 21px;
+	transition:  all .3s;
+}
+
+.content-linksblog__list a:hover{
+	text-decoration: underline;
+}
+
+.first-caption{
+	color: #0d3559;
+	font-family: "Geometria-Bold";
+	font-size: 24px;
+	padding: 35px 0px 27px 0px;
+	line-height: 30px;
+}
+
+.first-caption__content p{
+	margin-bottom: 30px;
+	color: #000000;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.first-caption__list{
+	font-family: "Geometria-Medium";
+	margin-bottom: 25px;
+}
+
+.first-caption__list li{
+	margin-left: 20px;
+	line-height: 21px;
+	list-style: disc;
+}
+
+.main-numbers{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 111px 0px 0px;
+	cursor: pointer;
+}
+
+.number-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 54px;
+	height: 54px;
+	border-radius: 50%;
+	color: #6aa6c8;
+	font-family: "Geometria-Bold";
+	font-size: 24px;
+	transition: all .1s;
+	box-shadow: 0 7px 15px rgba(160, 186, 219, 0.4);
+    background-color: #ffffff;
+}
+
+.number-item:hover{
+	box-shadow: 0 7px 15px rgba(90, 147, 221, 0.4);
+}
+
+.text-gray {
+	width: 100%;
+	background-color: #f6f7f7;
+	margin-top: 42px;
+	margin-bottom: 44px;
+	padding: 50px 43px 45px 46px;
+}
+
+.text-gray p{
+	color: #000000;
+	font-family: "Geometria-Medium";
+	font-size: 18px;
+}
+
+.main-method p{
+	color: #000000;
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 32px;
+}
+
+.main-method p:last-child{
+	margin: 0;
+}
+.text-simple {
+	font-size: 14px;
+	line-height: 21px;
+}
+.text-simple p {
+	margin-bottom: 25px;
+}
+.text-simple p:last-child {
+	margin-bottom: 0;
+}
+.row_top-article {
+	margin-bottom: 45px;
+}
+.breadcumbs {
+font-size: 14px;
+line-height: 21px;
+padding: 20px 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	color: #000;
+}
+.breadcumbs li a {
+	color: #000;
+	border-bottom: 1px transparent solid;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.breadcumbs li a:hover {
+	border-color: #000;
+}
+.breadcumbs li span {
+	margin: 0 15px;
+}
+.main-blog .title-page {
+	padding: 30px 0;
+}
+/* steps */
+
+.steps-padding {
+	padding: 0px;
+	padding: 43px 0px 87px 0px;
+}
+
+/* Contract */
+
+.contract {
+	position: relative;
+	background-color: #f6f7f7;
+	padding: 81px 0px 80px 0px;
+}
+.contract__img img {
+	max-width: 100%;
+	height: auto;
+}
+.contranct-text {
+	position: relative;
+	display: inline-block;
+}
+
+.contract__link::before {
+	display: inline-block;
+	content: '';
+	background: url(../img/contracts/contracts-1.svg) no-repeat;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 12px;
+	top: -6px;
+}
+.contract__link {
+	display: inline-block;
+	color: #000000;
+	font-family: "Geometria-Medium";
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0px 0px 0px 100px;
+	max-width: 380px;
+	transition: .2s all;
+}
+.contract__link:hover {
+	color:#32749d;
+}
+.map__contract {
+	padding: 97px 0px 0px 0px;
+}
+
+.instagram_padding {
+	padding-bottom: 0px;
+	
+}
+/* Prima */
+
+.prima {
+position: relative;
+}
+
+.prima a {
+	color: #000;
+}
+
+.prima__peter {
+	line-height: 28px;
+	margin: 70px 0px 70px 0px;
+}
+.prima__peter-title {
+	font-family: "Geometria-Medium";
+	font-size: 20px;
+	font-weight: 500;
+}
+.prima-peter__address {
+}
+.prima-peter__tel {
+	display: inline-block;
+}
+.prima__peter-fax {
+	display: inline-block;
+}
+
+.prima-peter__e-mail {
+	display: inline-block;
+}
+.details {
+	line-height: 28px;
+}
+.details__title {
+	font-family: "Geometria-Medium";
+	font-size: 20px;
+	font-weight: 500;
+}
+.crimea {
+	line-height: 28px;
+	margin: 70px 0px 0px 0px;
+}
+.crimea-title {
+	font-family: "Geometria-Medium";
+	font-size: 20px;
+	font-weight: 500;
+}
+.block-form__prima {
+	margin: 70px 0px 75px 0px;
+	max-width: 389px;
+}
+.input-message {
+	min-height: 95px;
+    box-shadow: inset 0 2px 5px rgba(170, 185, 192, 0.25);
+    border-radius: 6px;
+    background-color: #f6f7f7;
+    width: 100%;
+    font-size: 14px;
+    padding: 0px 0px 45px 0px;
+    border: none;
+    font-family: "Geometria";
+}
+.item-form__icon-message {
+	margin: -28px 0px 0px 0px;
+}
+
+.item-form__message textarea {
+	padding-top: 14px;
+	height: 95px;
+}
+.title-form__prima {
+	padding: 0px 0px 25px 0px;
+	color: #000000;
+	font-family: "Geometria-Medium";
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28px;
+}
+.flex_center {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.prima-contact {
+	line-height: 28px;
+	margin-top: 70px;
+}
+.prima-contact__title {
+	font-size: 20px;
+	padding-bottom: 5px;
+font-family: "Geometria-Medium";
+line-height: 28px;
+}
