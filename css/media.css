@@ -662,6 +662,10 @@ overflow: hidden;
     .prima .block-form {
         margin-top: 30px;
     }
+    .tech .title-page {
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
 }
 @media only screen and (max-width : 575px) {
 .footer {
@@ -863,7 +867,13 @@ overflow: hidden;
 .card-technology__image {
     height: 240px;
 }
-
+.title-form-main {
+    font-size: 17px;
+}
+.descr-form {
+    font-size: 14px;
+    padding-bottom: 25px;
+}
 }
 @media only screen and (max-width : 350px) {
 .logo img {
