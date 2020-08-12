@@ -690,11 +690,11 @@ font-size: 18px;
 margin-top: 28px;
 font-family: "Geometria-Bold";
 }
-.slider-portfolio .btn-main {
+.slider-portfolio__item .btn-main {
 	margin-top: 35px;
 	max-width: 350px;
 }
-.slider-portfolio .btn-main span {
+.slider-portfolio__item .btn-main span {
 	padding: 0 25px;
 	width: auto;
 }
@@ -3054,4 +3054,152 @@ top: 24px;
 }
 .tech_equipment {
 	padding-top: 40px;
+}
+.tab-pane > .slider-portfolio__item {
+	margin-bottom: 54px;
+}
+.tab-pane > .slider-portfolio__item:last-child {
+	margin-bottom: 0;
+}
+.portfolio_main {
+	padding-bottom: 0;
+}
+.portfolio_main .title-page {
+	padding-top: 35px;
+	padding-bottom: 40px;
+}
+
+/* Prima-description */
+
+.description-prima-title {
+	position: relative;
+	z-index: -1;
+	padding: 100px 0px 230px 71px;
+	background: url('../img/company/company-background.jpg') no-repeat right;
+	box-shadow: 0 3px 8px rgba(104, 123, 140, 0.17);
+	border-radius: 8px;
+	background-color: #ffffff;
+}
+.description-prima .main-title {
+	margin: 0px 0px 25px 0px;
+	display: inline-block;
+	font-family: "Geometria-Medium";
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 24px;
+}
+.about-prima {
+	margin: -130px 37px 0px 31px;
+	padding: 65px 22px 61px 40px;
+	top: 43%;
+	z-index: 10;
+	border-radius: 8px;
+	background-color: #cddee8;
+}
+.main__text {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.about-prima__text span {
+	margin: 0;
+	font-family: "Geometria-Medium";
+	font-weight: 500;
+	font-size: 16px;
+	display: inline;
+}
+
+/* task */
+
+.task-prima-block {
+	padding: 0px 0px 0px 0px;
+	margin: 37px 0px 0px 0px;
+	border-radius: 6px;
+	background-color: #fefeff;
+}
+.task-prima-text span {
+	font-family: "Geometria-Medium";
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	display: inline-block;
+	margin: 0px 0px 5px 0px;
+}
+.task-prima-img {
+	padding: 31px 0px 30px 36px;
+}
+
+.task-prima-img img {
+	max-width: 100%;
+	border-radius: 6px;
+	height: auto;
+}
+.company-tower-img img {
+	max-width: 100%;
+	border-radius: 6px;
+	height: auto;
+}
+
+.wrapper-background {
+	position: relative;
+	z-index: 1;
+	background-color: #f6f7f7;
+}
+
+/* company-tower */
+.company-tower {
+	position: relative;
+	padding: 36px 0px 0px 0px;
+}
+.company-tower-img {
+	position: relative;
+	z-index: -1;
+}
+
+.company-tower-img img {
+	max-width: 100%;
+	height: auto;
+}
+.company-adrress {
+	line-height: 24px;
+	display: inline-block;
+	padding: 51px 43px 54px 45px;
+	position: absolute ;
+	top: 113px;
+	right: 37px;
+	z-index: 10;
+	border: 17px solid #cddee8;
+	background-color: #ffffff;
+}
+.company-adrress a {
+	color: #000;
+}
+.header-index {
+	z-index: 10;
+}
+.about-company {
+	padding-top: 35px;
+	padding-bottom: 59px;
+	background-color: #f6f7f7;
+	position: relative;
+	margin-top: -1px;
+	z-index: 1;
+}
+.company-tower .container {
+	position: relative;
+}
+.task-prima-text {
+	line-height: 24px;
+}
+.description-prima-title .description-prima {
+	position: relative;
+	z-index: 2;
+	max-width: 570px;
+}
+.services-page {
+	padding-top: 35px;
+	padding-bottom: 30px;
+	margin-top: -1px;
+	background-color: #f6f7f7;
 }

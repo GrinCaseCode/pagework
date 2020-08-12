@@ -188,6 +188,7 @@
 	height: 104px;
 	box-shadow: 0 3px 8px rgba(104, 123, 140, 0.17);
 background-color: #ffffff;
+z-index: 22;
 }
 .row_services > div {
 	padding: 0 5px;
@@ -527,6 +528,28 @@ overflow: hidden;
 .prima #map {
     margin-top: 0;
 }
+.portfolio_main {
+    padding-bottom: 40px;
+}
+.task-prima-block {
+    padding: 30px 30px;
+}
+.task-prima-img {
+    padding: 0;
+}
+.company-adrress {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.about-company + .contacts {
+        background-color: #f6f7f7;
+}
+.services-page {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -666,6 +689,19 @@ overflow: hidden;
     padding-top: 35px;
     padding-bottom: 30px;
 }
+.description-prima-title {
+    padding: 65px 20px 175px 20px;
+    }
+    .about-prima {
+        padding: 30px 20px;
+            margin: -125px 25px 0px 25px;
+    }
+    .task-prima-img {
+        margin-top: 25px;
+    }
+    .company-adrress {
+        padding: 30px 20px;
+    }
 }
 @media only screen and (max-width : 575px) {
 .footer {
@@ -781,6 +817,24 @@ overflow: hidden;
 }
 .contract__link::before {
     top: 2px;
+}
+.description-prima .main-title {
+    margin: 0px 0px 15px 0px;
+    font-size: 19px;
+    line-height: 23px;
+}
+.description-prima-title {
+    margin: 0 -15px;
+}
+.about-prima {
+    padding: 30px 20px;
+    margin: -125px 0px 0px 0px;
+}
+.task-prima-block {
+    padding: 25px 20px;
+}
+.company-adrress {
+    border-width: 5px;
 }
 }
 @media only screen and (max-width : 395px) {
