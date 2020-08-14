@@ -24,7 +24,7 @@ body textarea:required:valid {
 	 
 }
 body {
-	font-family: "Geometria";
+	font-family: 'Geometria Regular';
 	font-size: 16px; 
 	overflow-x: hidden;
 	margin: 0;
@@ -136,7 +136,7 @@ max-width: 165px;
 .list-language {
 	color: #0d3559;
 font-size: 14px;
-font-family: "Geometria-Bold";
+font-family: 'Geometria Bold';
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -174,7 +174,7 @@ font-family: "Geometria-Bold";
 }
 .menu li a {
 	color: #0d3559;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	-webkit-transition: all 0.3s;
 -o-transition: all 0.3s;
 transition: all 0.3s;
@@ -184,7 +184,7 @@ transition: all 0.3s;
 }
 .link-phone {
 	color: #0d3559;
-	font-family: "Geometria-Bold";
+	font-family: 'Geometria Bold';
 -webkit-transition: all 0.3s;
 -o-transition: all 0.3s;
 transition: all 0.3s;
@@ -203,7 +203,7 @@ transition: all 0.3s;
 	text-align: center;
 	color: #ffffff;
 font-size: 14px;
-font-family: "Geometria-Medium";
+font-family: 'Geometria Medium';
 border-radius: 6px;
 color: #fff;
 background-color: #6aa6c7;
@@ -239,7 +239,7 @@ font-family: 'Geometria Extra Bold';
 .list-page {
 	font-size: 20px;
 line-height: 28px;
-font-family: "Geometria-Medium";
+font-family: 'Geometria Medium';
 }
 .list-page li {
 	padding-left: 50px;
@@ -352,7 +352,7 @@ z-index: -2;
 	align-items: center;
 	justify-content: center;
 	color: #fff;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 z-index: 1;
 text-align: center;
 position: relative;
@@ -429,7 +429,7 @@ background-image: linear-gradient(-103deg, rgba(255, 255, 255, 0.33) 0%, rgba(25
 	min-height: 100%;
 display: block;
 color: #000;
-font-family: "Geometria-Medium";
+font-family: 'Geometria Medium';
 text-align: center;
 -webkit-transition: all 0.3s;
 -o-transition: all 0.3s;
@@ -560,7 +560,7 @@ background-color: #6aa6c7;
 .title-page {
 	font-size: 30px;
 	color: #0d3559;
-	font-family: "Geometria-Bold";
+	font-family: 'Geometria Bold';
 }
 .title-page_main {
 	padding: 55px 0;
@@ -618,7 +618,7 @@ z-index: 1;
 	height: 87px;
 	color: #000;
 	max-width: 220px;
-font-family: "Geometria-Bold";
+font-family: 'Geometria Bold';
 text-transform: uppercase;
 padding-top: 33px;
 padding-bottom: 10px;
@@ -671,7 +671,7 @@ transition: all 0.3s;
 .slider-portfolio__name {
 	color: #0d3559;
 	margin-top: 45px;
-font-family: "Geometria-Bold";
+font-family: 'Geometria Bold';
 font-size: 30px;
 }
 .slider-portfolio__text {
@@ -679,7 +679,7 @@ font-size: 30px;
 	line-height: 24px;
 	margin-top: 23px;
 	max-width: 410px;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 }
 .slider-portfolio__text strong {
 	font-size: 16px;
@@ -688,7 +688,7 @@ font-size: 30px;
 	color: #000000;
 font-size: 18px;
 margin-top: 28px;
-font-family: "Geometria-Bold";
+font-family: 'Geometria Bold';
 }
 .slider-portfolio__item .btn-main {
 	margin-top: 35px;
@@ -740,7 +740,7 @@ font-family: "Geometria-Bold";
 	position: absolute;
 	top: 0;
 	left: -60px;
-	font-family: "Geometria-Bold";
+	font-family: 'Geometria Bold';
 	z-index: -1;
 	opacity: 0.7;
 }
@@ -796,7 +796,7 @@ line-height: 34px;
 .title-form {
 	line-height: 24px;
 	padding-bottom: 30px;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	text-align: center;
 }
 .block-form__content {
@@ -855,7 +855,7 @@ font-size: 14px;
 	padding-left: 59px;
 	padding-right: 15px;
 	border: none;
-	font-family: "Geometria";
+	font-family: 'Geometria Regular';
 }
 .item-form__icon {
 	width: 59px;
@@ -994,7 +994,7 @@ padding-top: 15px;
 	align-items: center;
 	margin-bottom: 30px;
 	max-width: 218px;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 }
 .item-step p {
 	font-size: 16px;
@@ -1006,7 +1006,7 @@ padding-top: 15px;
 	left: 0;
 	color: #6aa6c8;
 font-size: 24px;
-font-family: "Geometria-Bold";
+font-family: 'Geometria Bold';
 width: 54px;
 height: 54px;
 box-shadow: 0 7px 15px rgba(160, 186, 219, 0.4);
@@ -1141,7 +1141,7 @@ background-color: #f6f7f7;
 	font-size: 24px;
 	margin-bottom: 24px;
 	margin-top: 30px;
-font-family: "Geometria-Medium";
+font-family: 'Geometria Medium';
 line-height: 28px;
 position: relative;
 }
@@ -1193,7 +1193,7 @@ font-family: 'Geometria Extra Bold';
 .descr-form {
 	padding-bottom: 33px;
 	text-align: center;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 }
 .fl-upld input {
 	display: none;
@@ -1256,7 +1256,7 @@ background-color: #ffffff;
 	font-size: 20px;
 line-height: 28px;
 margin-bottom: 40px;
-font-family: "Geometria-Medium";
+font-family: 'Geometria Medium';
 }
 .slider-property p {
 	max-width: 380px;
@@ -1311,7 +1311,7 @@ background-color: #ffffff;
 	margin: 0 auto;
 	color: #000;
 	line-height: 24px;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 }
 .item-sertificat__image {
 	display: block;
@@ -1434,7 +1434,7 @@ background-color: rgba(255, 255, 255, 0.6);
 	padding-top: 50px;
 	padding-bottom: 10px;
 line-height: 28px;
-font-family: "Geometria-Medium";
+font-family: 'Geometria Medium';
 }
 .contacts-block p {
 	line-height: 24px;
@@ -1662,7 +1662,7 @@ transition: all 0.3s;
 	height: 122px;
 	font-size: 18px;
 	padding-top: 20px;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -1683,7 +1683,7 @@ top: 225px;
 left: 0;
 right: 0;
 margin: 0 auto;
-	font-family: "Geometria-Bold";
+	font-family: 'Geometria Bold';
 		color: #6aa6c8;
 		display: -webkit-flex;
 		display: -moz-flex;
@@ -1697,7 +1697,7 @@ margin: 0 auto;
 .item-technology__name {
 	line-height: 24px;
 	margin-bottom: 20px;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 }
 .item-technology__text {
 	line-height: 24px;
@@ -1722,7 +1722,7 @@ margin: 0 auto;
 	height: 78px;
 	font-size: 24px;
 line-height: 28px;
-font-family: "Geometria-Medium";
+font-family: 'Geometria Medium';
 display: -webkit-flex;
 display: -moz-flex;
 display: -ms-flex;
@@ -1753,7 +1753,7 @@ min-height: 100%;
 }
 .item-option__content p strong {
 	font-weight: normal;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 }
 .item-option__price {
 	color: #ef4a1e;
@@ -1789,7 +1789,7 @@ font-family: 'Geometria Extra Bold';
 }
 .title-page__lite {
 	display: block;
-	font-family: "Geometria";
+	font-family: 'Geometria Regular';
 }
 .calculation_tz .title-page {
 	max-width: 100%;
@@ -1803,7 +1803,7 @@ height: 142px;
 border-radius: 50%;
 padding: 0 25px;
 line-height: 31px;
-font-family: "Geometria-Bold";
+font-family: 'Geometria Bold';
 box-shadow: inset 0 1px 21px rgba(251, 251, 250, 0.57);
 background-color: #6ba6c7;
 background-image: linear-gradient(to bottom, #63a6ce 0%, #1a749e 100%);
@@ -1865,7 +1865,7 @@ text-align: center;
 font-size: 14px;
 text-transform: uppercase;
 color: #000;
-font-family: "Geometria-Medium";
+font-family: 'Geometria Medium';
 -webkit-transition: all 0.3s;
 -o-transition: all 0.3s;
 transition: all 0.3s;
@@ -1900,7 +1900,7 @@ background-color: #ffffff;
 }
 .tab-container-main strong {
 	font-weight: normal;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 }
 .tab-container-main p {
 	margin-bottom: 20px;
@@ -2006,7 +2006,7 @@ background-color: #f6f7f7;
 font-size: 24px;
 line-height: 30px;
 display: block;
-font-family: "Geometria-Medium";
+font-family: 'Geometria Medium';
 -webkit-transition: all 0.3s;
 -o-transition: all 0.3s;
 transition: all 0.3s;
@@ -2091,7 +2091,7 @@ z-index: 1;
 .rental__item {
 	position: relative;
 	color: #000000;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 24px;
@@ -2151,7 +2151,7 @@ background-image: linear-gradient(to bottom, #63a6ce 0%, #1a749e 100%);
 
 .rental__circle p {
 	margin: 0px 0px 5px 0px;
-	font-family: "Geometria";
+	font-family: 'Geometria Regular';
 	font-size: 36px;
 	font-size: 20px;
 	font-weight: 700;
@@ -2172,7 +2172,7 @@ background-image: linear-gradient(to bottom, #63a6ce 0%, #1a749e 100%);
 .rental__circle .space {
 	display: inline-block;
 	color: #ffffff;
-	font-family: "Geometria-Bold";
+	font-family: 'Geometria Bold';
 	font-size: 20px;
 	font-weight: 700;
 position: relative;
@@ -2181,7 +2181,7 @@ top: -5px;
 }
 
 .rental__circle .circle__word {
-	font-family: "Geometria-Bold";
+	font-family: 'Geometria Bold';
 	font-size: 36px;
 	
 }
@@ -2197,7 +2197,7 @@ top: -5px;
 }
 .tech__title {
 	color: #0d3559;
-	font-family: "Geometria-Bold";
+	font-family: 'Geometria Bold';
 	font-size: 30px;
 	font-weight: 700;
 	padding: 51px 0px 0px 0px;
@@ -2224,7 +2224,7 @@ top: -5px;
 	border-radius: 6px;
 	background-color: #ffffff;
 	text-transform: uppercase;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 }
 
 
@@ -2262,18 +2262,18 @@ top: -5px;
 .hose__title {
 	padding: 44px 0px 0px 0px;
 	color: #0d3559;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 20px;	
 	margin: 0px 0px 30px 0px;
 }
 
 .hose__list {
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-weight: 500;
 }
 
 .hose__list span {
-	font-family: "Geometria";
+	font-family: 'Geometria Regular';
 	font-weight: 400;
 }
 
@@ -2310,7 +2310,7 @@ top: -5px;
 .equipment__title {
 	color: #0d3559;
 	text-align: center;
-	font-family: "Geometria-Bold";
+	font-family: 'Geometria Bold';
 	font-size: 30px;
 	font-weight: 700;
 	margin: 0px 0px 65px 0px;
@@ -2345,7 +2345,7 @@ top: -5px;
 
 .equipment-subtitle {
 	color: #000000;
-	font-family: "Geometria-Bold";
+	font-family: 'Geometria Bold';
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 24px;
@@ -2354,7 +2354,7 @@ top: -5px;
 }
 .equipment-text {
 	color: #000000;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 24px;
@@ -2409,7 +2409,7 @@ top: -5px;
 }
 .footer-menu__item a {
 	color: #fff;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 40px;
@@ -2434,7 +2434,7 @@ top: -5px;
 }
 .service-footer__item a {
 	color: #ffffff;
-font-family: "Geometria";
+font-family: 'Geometria Regular';
 font-size: 14px;
 font-weight: 400;
 line-height: 21px;	
@@ -2450,7 +2450,7 @@ border-bottom: 1px transparent solid;
 
 .contacts__item .contacts-title  {
 	color: #ffffff;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 28px;
@@ -2467,7 +2467,7 @@ border-bottom: 1px transparent solid;
 }
 .contacts__item a {
 	color: #ffffff;
-	font-family: "Geometria";
+	font-family: 'Geometria Regular';
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 21px;
@@ -2480,7 +2480,7 @@ border-bottom: 1px transparent solid;
 	line-height: 28px;
 	margin-bottom: 10px;
 	margin-top: 20px;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	color: #fff;
 }
 .footer__title:first-of-type {
@@ -2494,7 +2494,7 @@ border-bottom: 1px transparent solid;
 
 .associate {
 	color: #f6f7f7;
-	font-family: "Geometria";
+	font-family: 'Geometria Regular';
 	font-size: 13px;
 	padding: 30px 0px 27px 0px;
 	background-color: #132c47;
@@ -2512,7 +2512,12 @@ border-bottom: 1px transparent solid;
 	transition: all 0.3s;
 }
 .associate__make {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
+	margin-top: 5px;
 	align-items: center;
 }
 
@@ -2547,7 +2552,7 @@ border-bottom: 1px transparent solid;
 	color: #6ba6c7;
 	border: 1px #6ba6c7 solid;
 	border-radius: 8px;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	display: -webkit-inline-flex;
 	display: -moz-inline-flex;
 	display: -ms-inline-flex;
@@ -2629,7 +2634,7 @@ border-bottom: 1px transparent solid;
 .pagination li a {
 	color: #000000;
 	margin: 0 22px;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 16px;
 	font-weight: 500;
 	-webkit-transition: all 0.3s;
@@ -2693,7 +2698,7 @@ border-bottom: 1px transparent solid;
 }
 .main-caption{
 	color: #0d3559;
-	font-family: "Geometria-Bold";
+	font-family: 'Geometria Bold';
 	font-size: 30px;
 	line-height: 33px;
 	padding: 31px 0px 34px 0px;
@@ -2714,7 +2719,7 @@ border-bottom: 1px transparent solid;
 
 .content-linksblog__caption{
 	color: #000000;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 18px;
 	margin-bottom: 10px;
 }
@@ -2732,7 +2737,7 @@ border-bottom: 1px transparent solid;
 
 .first-caption{
 	color: #0d3559;
-	font-family: "Geometria-Bold";
+	font-family: 'Geometria Bold';
 	font-size: 24px;
 	padding: 35px 0px 27px 0px;
 	line-height: 30px;
@@ -2746,7 +2751,7 @@ border-bottom: 1px transparent solid;
 }
 
 .first-caption__list{
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	margin-bottom: 25px;
 }
 
@@ -2771,7 +2776,7 @@ border-bottom: 1px transparent solid;
 	height: 54px;
 	border-radius: 50%;
 	color: #6aa6c8;
-	font-family: "Geometria-Bold";
+	font-family: 'Geometria Bold';
 	font-size: 24px;
 	transition: all .1s;
 	box-shadow: 0 7px 15px rgba(160, 186, 219, 0.4);
@@ -2792,7 +2797,7 @@ border-bottom: 1px transparent solid;
 
 .text-gray p{
 	color: #000000;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 18px;
 }
 
@@ -2884,7 +2889,7 @@ padding: 20px 0;
 .contract__link {
 	display: inline-block;
 	color: #000000;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 18px;
 	font-weight: 500;
 	margin: 0px 0px 0px 100px;
@@ -2917,7 +2922,7 @@ position: relative;
 	margin: 70px 0px 70px 0px;
 }
 .prima__peter-title {
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 20px;
 	font-weight: 500;
 }
@@ -2937,7 +2942,7 @@ position: relative;
 	line-height: 28px;
 }
 .details__title {
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 20px;
 	font-weight: 500;
 }
@@ -2946,7 +2951,7 @@ position: relative;
 	margin: 70px 0px 0px 0px;
 }
 .crimea-title {
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 20px;
 	font-weight: 500;
 }
@@ -2963,7 +2968,7 @@ position: relative;
     font-size: 14px;
     padding: 0px 0px 45px 0px;
     border: none;
-    font-family: "Geometria";
+font-family: 'Geometria Regular';
 }
 .item-form__icon-message {
 	margin: -28px 0px 0px 0px;
@@ -2976,7 +2981,7 @@ position: relative;
 .title-form__prima {
 	padding: 0px 0px 25px 0px;
 	color: #000000;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 24px;
 	font-weight: 500;
 	line-height: 28px;
@@ -2996,7 +3001,7 @@ position: relative;
 .prima-contact__title {
 	font-size: 20px;
 	padding-bottom: 5px;
-font-family: "Geometria-Medium";
+font-family: 'Geometria Medium';
 line-height: 28px;
 }
 .modal-block {
@@ -3017,7 +3022,7 @@ line-height: 28px;
 	overflow: visible !important;
 }
 .modal-wrap .title-form-main {
-font-family: "Geometria-Medium";
+font-family: 'Geometria Medium';
 }
 .fancybox-close {
 top: 24px;
@@ -3083,7 +3088,7 @@ top: 24px;
 .description-prima .main-title {
 	margin: 0px 0px 25px 0px;
 	display: inline-block;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 24px;
 	font-weight: 500;
 	line-height: 24px;
@@ -3104,7 +3109,7 @@ top: 24px;
 }
 .about-prima__text span {
 	margin: 0;
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-weight: 500;
 	font-size: 16px;
 	display: inline;
@@ -3119,7 +3124,7 @@ top: 24px;
 	background-color: #fefeff;
 }
 .task-prima-text span {
-	font-family: "Geometria-Medium";
+	font-family: 'Geometria Medium';
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 24px;
@@ -3202,4 +3207,7 @@ top: 24px;
 	padding-bottom: 30px;
 	margin-top: -1px;
 	background-color: #f6f7f7;
+}
+.slider-portfolio__item .btn-main span {
+	min-width: 300px;
 }

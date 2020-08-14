@@ -362,7 +362,7 @@ z-index: 22;
 }
 .slider-portfolio-mobile__name {
     font-size: 24px;
-    font-family: "Geometria-Medium";
+   font-family: 'Geometria Medium';
 }
 .slider-portfolio-mobile__logo img {
     max-width: 104px;
@@ -377,7 +377,7 @@ background-color: #ffffff;
 .slider-portfolio-mobile__size {
     font-size: 18px;
     padding: 20px 0;
-    font-family: "Geometria-Medium";
+    font-family: 'Geometria Medium';
 }
 .slider-portfolio-mobile__text {
     font-size: 14px;
@@ -385,7 +385,7 @@ background-color: #ffffff;
 }
 .slider-portfolio-mobile__text strong {
     font-size: 16px;
-     font-family: "Geometria-Medium";
+     font-family: 'Geometria Medium';
      font-weight: normal;
 }
 .slider-portfolio-mobile__image {
