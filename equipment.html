@@ -1,656 +1,479 @@
 <!DOCTYPE html>
 <html lang="ru">
-   <head>
-      <meta charset="utf-8" />
-      <title>Заголовок</title>
-      <meta name="description" content="" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="shortcut icon" href="favicon.png" />
-      <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
-      <link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
-      <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-      <link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
-      <link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
-      <link rel="stylesheet" href="css/fonts.css" />
-      <link rel="stylesheet" href="css/main.css?ver=1.43" />
-      <link rel="stylesheet" href="css/media.css?ver=1.43" />
-   </head>
-   <body>
-      <div class="wrapper">
-         <header class="header header_inner">
-            <div class="container">
-               <div class="header__top">
-                  <span class="btn_nav">
+<head>
+   <meta charset="utf-8" />
+   <title>Заголовок</title>
+   <meta name="description" content="" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="shortcut icon" href="favicon.png" />
+   <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+   <link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+   <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+   <link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+   <link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+   <link rel="stylesheet" href="css/fonts.css" />
+   <link rel="stylesheet" href="css/main.css?ver=1.67" />
+   <link rel="stylesheet" href="css/media.css?ver=1.67" />
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header header_inner">
+         <div class="container">
+            <div class="header__top">
+               <span class="btn_nav">
                   <span class='sandwich'>
-                  <span class='sw-topper'></span>
-                  <span class='sw-bottom'></span>
-                  <span class='sw-footer'></span>
+                     <span class='sw-topper'></span>
+                     <span class='sw-bottom'></span>
+                     <span class='sw-footer'></span>
                   </span>
-                  </span>
-                  <div class="logo-wrap">
-                     <a href="#" class="logo">
+               </span>
+               <div class="logo-wrap">
+                  <a href="#" class="logo">
                      <img src="img/logo.svg" alt="alt">
-                     </a>
-                     <div class="logo-wrap__descr">Лицензированная компания в области пожарной безопасности, огнезащиты и антикоррозийной защиты</div>
-                  </div>
-                  <div class="header__contacts">
-                     <p>г. Санкт-Петербург,</p>
-                     <p>ул. Кантемировская, 12,</p>
-                     <p>литер А, пом. 10-Н</p>
-                  </div>
-                  <div class="header__contacts">
-                     <p>Без выходных: </p>
-                     <p>10:00-20:00</p>
-                     <p><a href="mailto:info@prima-piter.ru" rel="nofollow">info@prima-piter.ru</a></p>
-                  </div>
-                  <div class="header__right">
-                     <a href="tel:+7 (812) 920-32-38" class="link-phone" rel="nofollow">+7 (812) 920-32-38</a>
-                     <ul class="list-language show_tablet">
-                        <li class="active"><a href="#">RU</a><span>|</span></li>
-                        <li><a href="#">EN</a></li>
-                     </ul>
-                     <br>
-                     <a href="#callback" class="btn-simple fancybox">Заказать звонок</a>
-                  </div>
+                  </a>
+                  <div class="logo-wrap__descr">Лицензированная компания в области пожарной безопасности, огнезащиты и антикоррозийной защиты</div>
                </div>
-               <div class="header__bottom">
-                  <ul class="list-language">
+               <div class="header__contacts">
+                  <p>г. Санкт-Петербург,</p>
+                  <p>ул. Кантемировская, 12,</p>
+                  <p>литер А, пом. 10-Н</p>
+               </div>
+               <div class="header__contacts">
+                  <p>Без выходных: </p>
+                  <p>10:00-20:00</p>
+                  <p><a href="mailto:info@prima-piter.ru" rel="nofollow">info@prima-piter.ru</a></p>
+               </div>
+               <div class="header__right">
+                  <a href="tel:+7 (812) 920-32-38" class="link-phone" rel="nofollow">+7 (812) 920-32-38</a>
+                  <ul class="list-language show_tablet">
                      <li class="active"><a href="#">RU</a><span>|</span></li>
                      <li><a href="#">EN</a></li>
                   </ul>
-                  <ul class="menu">
-                     <li><a href="#">О компании</a></li>
-                     <li><a href="#">Услуги</a></li>
-                     <li><a href="#">Наши объекты</a></li>
-                     <li><a href="#">Как мы работаем?</a></li>
-                     <li><a href="#">Оборудование</a></li>
-                     <li><a href="#">Лицензии</a></li>
-                     <li><a href="#">Блог</a></li>
-                     <li><a href="#">Контакты</a></li>
+                  <br>
+                  <a href="#callback" class="btn-simple fancybox">Заказать звонок</a>
+               </div>
+            </div>
+            <div class="header__bottom">
+               <ul class="list-language">
+                  <li class="active"><a href="#">RU</a><span>|</span></li>
+                  <li><a href="#">EN</a></li>
+               </ul>
+               <ul class="menu">
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Услуги</a></li>
+                  <li><a href="#">Наши объекты</a></li>
+                  <li><a href="#">Как мы работаем?</a></li>
+                  <li><a href="#">Оборудование</a></li>
+                  <li><a href="#">Лицензии</a></li>
+                  <li><a href="#">Блог</a></li>
+                  <li><a href="#">Контакты</a></li>
+               </ul>
+            </div>
+         </div>
+      </header>
+      <div class="tech tech_equipment">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-3">
+                  <ul class="tech__items ">
+                     <li class="tech-item active "><a href="#tab-main1" class="tech-item__link">Окрасочное оборудование</a></li>
+                     <li class=" tech-item"><a href="#tab-main2" class="tech-item__link">Компрессорные
+                     станции</a>
+                  </li>
+                  <li class="tech-item"><a href="#tab-main3" class="tech-item__link">Дизельные компрессоры</a>
+                  </li>
+                  <li class="tech-item"><a href="#tab-main4" class="tech-item__link">Абразивоструйные
+                  установки</a>
+               </li>
+               <li class="tech-item"><a href="#tab-main5" class="tech-item__link">Ресиверы</a></li>
+               <li class="tech-item"><a href="#tab-main6" class="tech-item__link">Торкрет-пушки</a></li>
+               <li class="tech-item"><a href="#tab-main7" class="tech-item__link">Измерительное
+               оборудование</a>
+            </li>
+            <li class="tech-item"><a href="#tab-main8" class="tech-item__link">Тепловые пушки</a></li>
+         </ul>
+      </div>
+      <div class="col-lg-9">
+         <div class="tech__product" id="tab-main1">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="tech__img">
+                     <img src="img/tech/hose.png" alt="hose" />
+                  </div>
+                  <div class="col-md-6"></div>
+               </div>
+               <div class="col-md-6">
+                  <div class="hose__title">
+                     Окрасочный аппарат Graco (США)
+                  </div>
+                  <ul class="hose__list">
+                     <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                     <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                     <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                     </li>
+                     <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                     <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                     </li>
                   </ul>
                </div>
             </div>
-         </header>
-         <div class="tech tech_equipment">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-3">
-                     <ul class="tech__items ">
-                        <li class="tech-item active "><a href="#tab-main1" class="tech-item__link">Окрасочное оборудование</a></li>
-                        <li class=" tech-item"><a href="#tab-main2" class="tech-item__link">Компрессорные
-                           станции</a>
-                        </li>
-                        <li class="tech-item"><a href="#tab-main3" class="tech-item__link">Дизельные компрессоры</a>
-                        </li>
-                        <li class="tech-item"><a href="#tab-main4" class="tech-item__link">Абразивоструйные
-                           установки</a>
-                        </li>
-                        <li class="tech-item"><a href="#tab-main5" class="tech-item__link">Ресиверы</a></li>
-                        <li class="tech-item"><a href="#tab-main6" class="tech-item__link">Торкрет-пушки</a></li>
-                        <li class="tech-item"><a href="#tab-main7" class="tech-item__link">Измерительное
-                           оборудование</a>
-                        </li>
-                        <li class="tech-item"><a href="#tab-main8" class="tech-item__link">Тепловые пушки</a></li>
-                     </ul>
+            <div class="tech__btn">
+               <a href="#callback-service" class="btn-main btn-main_block fancybox"><span>Заказать<br>
+                  аренду оборудования
+               </span></a>
+               <div class="tech__btn">
+                  <a href="#callback-mail" class="btn-main fancybox"><span>
+                     Скачать весь каталог<br> арендной спецтехники
+                  </span></a>
+               </div>
+            </div>
+         </div>
+         <div class="tech__product" id="tab-main2">
+            <div class="row align-items-center">
+               <div class="col-md-6">
+                  <div class="tech__img">
+                     <img src="img/tech/hose.png" alt="hose" />
                   </div>
-                  <div class="col-lg-9">
-                     <div class="tech__product" id="tab-main1">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <div class="tech__img">
-                                 <img src="img/tech/hose.png" alt="hose" />
-                              </div>
-                              <div class="col-md-6"></div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="hose__title">
-                                 Окрасочный аппарат Graco (США)
-                              </div>
-                              <ul class="hose__list">
-                                 <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                 <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                 <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                 </li>
-                                 <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                 <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="tech__btn">
-                           <a href="#callback" class="btn-main btn-main_block fancybox"><span>Заказать<br>
-                           аренду оборудования
-                           </span></a>
-                           <div class="tech__btn">
-                              <a href="#callback-mail" class="btn-main fancybox"><span>
-                              Скачать весь каталог<br> арендной спецтехники
-                              </span></a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="tech__product" id="tab-main2">
-                        <div class="row align-items-center">
-                           <div class="col-md-6">
-                              <div class="tech__img">
-                                 <img src="img/tech/hose.png" alt="hose" />
-                              </div>
-                              <div class="col-md-6"></div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="hose__title">
-                                 Окрасочный аппарат Graco (США)
-                              </div>
-                              <ul class="hose__list">
-                                 <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                 <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                 <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                 </li>
-                                 <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                 <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="tech__btn">
-                           <a href="#callback" class="btn-main btn-main_block fancybox"><span>Заказать<br>
-                           аренду оборудования
-                           </span></a>
-                           <div class="tech__btn">
-                              <a href="#callback-mail" class="btn-main fancybox"><span>
-                              Скачать весь каталог<br> арендной спецтехники
-                              </span></a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="tech__product" id="tab-main3">
-                        <div class="row align-items-center">
-                           <div class="col-md-6">
-                              <div class="tech__img">
-                                 <img src="img/tech/hose.png" alt="hose" />
-                              </div>
-                              <div class="col-md-6"></div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="hose__title">
-                                 Окрасочный аппарат Graco (США)
-                              </div>
-                              <ul class="hose__list">
-                                 <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                 <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                 <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                 </li>
-                                 <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                 <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="tech__btn">
-                           <a href="#callback" class="btn-main btn-main_block fancybox"><span>Заказать<br>
-                           аренду оборудования
-                           </span></a>
-                           <div class="tech__btn">
-                              <a href="#callback-mail" class="btn-main fancybox"><span>
-                              Скачать весь каталог<br> арендной спецтехники
-                              </span></a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="tech__product" id="tab-main4">
-                        <div class="row align-items-center">
-                           <div class="col-md-6">
-                              <div class="tech__img">
-                                 <img src="img/tech/hose.png" alt="hose" />
-                              </div>
-                              <div class="col-md-6"></div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="hose__title">
-                                 Окрасочный аппарат Graco (США)
-                              </div>
-                              <ul class="hose__list">
-                                 <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                 <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                 <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                 </li>
-                                 <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                 <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="tech__btn">
-                           <a href="#callback" class="btn-main btn-main_block fancybox"><span>Заказать<br>
-                           аренду оборудования
-                           </span></a>
-                           <div class="tech__btn">
-                              <a href="#callback-mail" class="btn-main fancybox"><span>
-                              Скачать весь каталог<br> арендной спецтехники
-                              </span></a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="tech__product" id="tab-main5">
-                        <div class="row align-items-center">
-                           <div class="col-md-6">
-                              <div class="tech__img">
-                                 <img src="img/tech/hose.png" alt="hose" />
-                              </div>
-                              <div class="col-md-6"></div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="hose__title">
-                                 Окрасочный аппарат Graco (США)
-                              </div>
-                              <ul class="hose__list">
-                                 <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                 <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                 <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                 </li>
-                                 <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                 <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="tech__btn">
-                           <a href="#callback" class="btn-main btn-main_block fancybox"><span>Заказать<br>
-                           аренду оборудования
-                           </span></a>
-                           <div class="tech__btn">
-                              <a href="#callback-mail" class="btn-main fancybox"><span>
-                              Скачать весь каталог<br> арендной спецтехники
-                              </span></a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="tech__product" id="tab-main6">
-                        <div class="row align-items-center">
-                           <div class="col-md-6">
-                              <div class="tech__img">
-                                 <img src="img/tech/hose.png" alt="hose" />
-                              </div>
-                              <div class="col-md-6"></div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="hose__title">
-                                 Окрасочный аппарат Graco (США)
-                              </div>
-                              <ul class="hose__list">
-                                 <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                 <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                 <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                 </li>
-                                 <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                 <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="tech__btn">
-                           <a href="#callback" class="btn-main btn-main_block fancybox"><span>Заказать<br>
-                           аренду оборудования
-                           </span></a>
-                           <div class="tech__btn">
-                              <a href="#callback-mail" class="btn-main fancybox"><span>
-                              Скачать весь каталог<br> арендной спецтехники
-                              </span></a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="tech__product" id="tab-main7">
-                        <div class="row align-items-center">
-                           <div class="col-md-6">
-                              <div class="tech__img">
-                                 <img src="img/tech/hose.png" alt="hose" />
-                              </div>
-                              <div class="col-md-6"></div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="hose__title">
-                                 Окрасочный аппарат Graco (США)
-                              </div>
-                              <ul class="hose__list">
-                                 <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                 <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                 <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                 </li>
-                                 <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                 <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="tech__btn">
-                           <a href="#callback" class="btn-main btn-main_block fancybox"><span>Заказать<br>
-                           аренду оборудования
-                           </span></a>
-                           <div class="tech__btn">
-                              <a href="#callback-mail" class="btn-main fancybox"><span>
-                              Скачать весь каталог<br> арендной спецтехники
-                              </span></a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="tech__product" id="tab-main8">
-                        <div class="row align-items-center">
-                           <div class="col-md-6">
-                              <div class="tech__img">
-                                 <img src="img/tech/hose.png" alt="hose" />
-                              </div>
-                              <div class="col-md-6"></div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="hose__title">
-                                 Окрасочный аппарат Graco (США)
-                              </div>
-                              <ul class="hose__list">
-                                 <li class="hose-list__item">Модель: <span>Х45</span> </li>
-                                 <li class="hose-list__item">Год производства: <span>2017</span> </li>
-                                 <li class="hose-list__item">Количество доступных единиц: <span>2</span>
-                                 </li>
-                                 <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
-                                 <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="tech__btn">
-                           <a href="#callback" class="btn-main btn-main_block fancybox"><span>Заказать<br>
-                           аренду оборудования
-                           </span></a>
-                           <div class="tech__btn">
-                              <a href="#callback-mail" class="btn-main fancybox"><span>
-                              Скачать весь каталог<br> арендной спецтехники
-                              </span></a>
-                           </div>
-                        </div>
-                     </div>
+                  <div class="col-md-6"></div>
+               </div>
+               <div class="col-md-6">
+                  <div class="hose__title">
+                     Окрасочный аппарат Graco (США)
+                  </div>
+                  <ul class="hose__list">
+                     <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                     <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                     <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                     </li>
+                     <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                     <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="tech__btn">
+               <a href="#callback-service" class="btn-main btn-main_block fancybox"><span>Заказать<br>
+                  аренду оборудования
+               </span></a>
+               <div class="tech__btn">
+                  <a href="#callback-mail" class="btn-main fancybox"><span>
+                     Скачать весь каталог<br> арендной спецтехники
+                  </span></a>
+               </div>
+            </div>
+         </div>
+         <div class="tech__product" id="tab-main3">
+            <div class="row align-items-center">
+               <div class="col-md-6">
+                  <div class="tech__img">
+                     <img src="img/tech/hose.png" alt="hose" />
+                  </div>
+                  <div class="col-md-6"></div>
+               </div>
+               <div class="col-md-6">
+                  <div class="hose__title">
+                     Окрасочный аппарат Graco (США)
+                  </div>
+                  <ul class="hose__list">
+                     <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                     <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                     <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                     </li>
+                     <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                     <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="tech__btn">
+               <a href="#callback-service" class="btn-main btn-main_block fancybox"><span>Заказать<br>
+                  аренду оборудования
+               </span></a>
+               <div class="tech__btn">
+                  <a href="#callback-mail" class="btn-main fancybox"><span>
+                     Скачать весь каталог<br> арендной спецтехники
+                  </span></a>
+               </div>
+            </div>
+         </div>
+         <div class="tech__product" id="tab-main4">
+            <div class="row align-items-center">
+               <div class="col-md-6">
+                  <div class="tech__img">
+                     <img src="img/tech/hose.png" alt="hose" />
+                  </div>
+                  <div class="col-md-6"></div>
+               </div>
+               <div class="col-md-6">
+                  <div class="hose__title">
+                     Окрасочный аппарат Graco (США)
+                  </div>
+                  <ul class="hose__list">
+                     <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                     <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                     <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                     </li>
+                     <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                     <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="tech__btn">
+               <a href="#callback-service" class="btn-main btn-main_block fancybox"><span>Заказать<br>
+                  аренду оборудования
+               </span></a>
+               <div class="tech__btn">
+                  <a href="#callback-mail" class="btn-main fancybox"><span>
+                     Скачать весь каталог<br> арендной спецтехники
+                  </span></a>
+               </div>
+            </div>
+         </div>
+         <div class="tech__product" id="tab-main5">
+            <div class="row align-items-center">
+               <div class="col-md-6">
+                  <div class="tech__img">
+                     <img src="img/tech/hose.png" alt="hose" />
+                  </div>
+                  <div class="col-md-6"></div>
+               </div>
+               <div class="col-md-6">
+                  <div class="hose__title">
+                     Окрасочный аппарат Graco (США)
+                  </div>
+                  <ul class="hose__list">
+                     <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                     <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                     <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                     </li>
+                     <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                     <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="tech__btn">
+               <a href="#callback-service" class="btn-main btn-main_block fancybox"><span>Заказать<br>
+                  аренду оборудования
+               </span></a>
+               <div class="tech__btn">
+                  <a href="#callback-mail" class="btn-main fancybox"><span>
+                     Скачать весь каталог<br> арендной спецтехники
+                  </span></a>
+               </div>
+            </div>
+         </div>
+         <div class="tech__product" id="tab-main6">
+            <div class="row align-items-center">
+               <div class="col-md-6">
+                  <div class="tech__img">
+                     <img src="img/tech/hose.png" alt="hose" />
+                  </div>
+                  <div class="col-md-6"></div>
+               </div>
+               <div class="col-md-6">
+                  <div class="hose__title">
+                     Окрасочный аппарат Graco (США)
+                  </div>
+                  <ul class="hose__list">
+                     <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                     <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                     <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                     </li>
+                     <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                     <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="tech__btn">
+               <a href="#callback-service" class="btn-main btn-main_block fancybox"><span>Заказать<br>
+                  аренду оборудования
+               </span></a>
+               <div class="tech__btn">
+                  <a href="#callback-mail" class="btn-main fancybox"><span>
+                     Скачать весь каталог<br> арендной спецтехники
+                  </span></a>
+               </div>
+            </div>
+         </div>
+         <div class="tech__product" id="tab-main7">
+            <div class="row align-items-center">
+               <div class="col-md-6">
+                  <div class="tech__img">
+                     <img src="img/tech/hose.png" alt="hose" />
+                  </div>
+                  <div class="col-md-6"></div>
+               </div>
+               <div class="col-md-6">
+                  <div class="hose__title">
+                     Окрасочный аппарат Graco (США)
+                  </div>
+                  <ul class="hose__list">
+                     <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                     <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                     <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                     </li>
+                     <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                     <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="tech__btn">
+               <a href="#callback-service" class="btn-main btn-main_block fancybox"><span>Заказать<br>
+                  аренду оборудования
+               </span></a>
+               <div class="tech__btn">
+                  <a href="#callback-mail" class="btn-main fancybox"><span>
+                     Скачать весь каталог<br> арендной спецтехники
+                  </span></a>
+               </div>
+            </div>
+         </div>
+         <div class="tech__product" id="tab-main8">
+            <div class="row align-items-center">
+               <div class="col-md-6">
+                  <div class="tech__img">
+                     <img src="img/tech/hose.png" alt="hose" />
+                  </div>
+                  <div class="col-md-6"></div>
+               </div>
+               <div class="col-md-6">
+                  <div class="hose__title">
+                     Окрасочный аппарат Graco (США)
+                  </div>
+                  <ul class="hose__list">
+                     <li class="hose-list__item">Модель: <span>Х45</span> </li>
+                     <li class="hose-list__item">Год производства: <span>2017</span> </li>
+                     <li class="hose-list__item">Количество доступных единиц: <span>2</span>
+                     </li>
+                     <li class="hose-list__item">Цена в сутки: <span>300 рублей</span> </li>
+                     <li class="hose-list__item">Минимальный срок аренды: <span>5 суток</span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="tech__btn">
+               <a href="#callback-service" class="btn-main btn-main_block fancybox"><span>Заказать<br>
+                  аренду оборудования
+               </span></a>
+               <div class="tech__btn">
+                  <a href="#callback-mail" class="btn-main fancybox"><span>
+                     Скачать весь каталог<br> арендной спецтехники
+                  </span></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+<div class="equipment">
+   <div class="container">
+      <div class="equipment__title">
+         Мы предоставляем технику от производителей-флагманов<br>
+         профильного оборудования
+      </div>
+      <div class="row">
+         <div class="col-md-6">
+            <div class="equipment__items">
+               <div class="equipment__img">
+                  <img src="img/equipment/equipment-1.svg"
+                  alt="icon">
+               </div>
+               <div class="equipment-text__block">
+                  <div class="equipment-subtitle">
+                     Вся техника свежая
+                  </div>
+                  <div class="equipment-text">
+                     С большим ресурсом безремонтной<br> работы
                   </div>
                </div>
             </div>
          </div>
-         <div class="equipment">
-            <div class="container">
-               <div class="equipment__title">
-                  Мы предоставляем технику от производителей-флагманов<br>
-                  профильного оборудования
+         <div class="col-md-6">
+            <div class="equipment__items">
+               <div class="equipment__img">
+                  <img src="img/equipment/equipment-3.svg"
+                  alt="icon">
                </div>
-               <div class="row">
-                  <div class="col-md-6">
-                     <div class="equipment__items">
-                        <div class="equipment__img">
-                           <img src="img/equipment/equipment-1.svg"
-                              alt="icon">
-                        </div>
-                        <div class="equipment-text__block">
-                           <div class="equipment-subtitle">
-                              Вся техника свежая
-                           </div>
-                           <div class="equipment-text">
-                              С большим ресурсом безремонтной<br> работы
-                           </div>
-                        </div>
-                     </div>
+               <div class="equipment-text__block">
+                  <div class="equipment-subtitle">
+                     Мы проводим регулярное ТО
                   </div>
-                  <div class="col-md-6">
-                     <div class="equipment__items">
-                        <div class="equipment__img">
-                           <img src="img/equipment/equipment-3.svg"
-                              alt="icon">
-                        </div>
-                        <div class="equipment-text__block">
-                           <div class="equipment-subtitle">
-                              Мы проводим регулярное ТО
-                           </div>
-                           <div class="equipment-text">
-                              Во время производства работ<br>
-                              не возникнет задержек из-за поломок техники
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-6">
-                     <div class="equipment__items last-child">
-                        <div class="equipment__img">
-                           <img src="img/equipment/equipment-2.svg"
-                              alt="icon">
-                        </div>
-                        <div class="equipment-text__block">
-                           <div class="equipment-subtitle">
-                              Полный комплект для производства<br>
-                              огнезащитных работ под ключ
-                           </div>
-                           <div class="equipment-text">
-                              У нас есть всё: от компрессорных станций<br> и до пескоструйных аппаратов
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-6">
-                     <div class="equipment__items last-child">
-                        <div class="equipment__img">
-                           <img src="img/equipment/equipment-4.svg" alt="icon">
-                        </div>
-                        <div class="equipment-text__block">
-                           <div class="equipment-subtitle">
-                              Собственная доставка
-                           </div>
-                           <div class="equipment-text">
-                              Возможность оперативно подвезти<br>
-                              технику в любую точку России в любой<br> день в году
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="equipment-officials">
-                  <div class="equipment-officials__block">
-                     <div class="equipment__logo">
-                        <img src="img/equipment/graco.png" alt="graco">
-                     </div>
-                     <div class="equipment__logo">
-                        <img src="img/equipment/irmer_logo.png" alt="irmer">
-                     </div>
-                     <div class="equipment__logo">
-                        <img src="img/equipment/wagner.png" alt="wagner">
-                     </div>
+                  <div class="equipment-text">
+                     Во время производства работ<br>
+                     не возникнет задержек из-за поломок техники
                   </div>
                </div>
             </div>
          </div>
-         <div class="calculation calculation_rent">
-            <div class="container">
-               <div class="row align-items-center">
-                  <div class="col-lg-7">
-                     <h2 class="title-page title-page_big">Получите расчет стоимости аренды спецтехники по вашему техническому заданию, <span class="title-page__lite">а также рекомендации по оптимизации проведения проектных работ от нашего специалиста</span></h2>
+         <div class="col-md-6">
+            <div class="equipment__items last-child">
+               <div class="equipment__img">
+                  <img src="img/equipment/equipment-2.svg"
+                  alt="icon">
+               </div>
+               <div class="equipment-text__block">
+                  <div class="equipment-subtitle">
+                     Полный комплект для производства<br>
+                     огнезащитных работ под ключ
                   </div>
-                  <div class="col-xl-4 offset-xl-1 offset-lg-0 offset-md-3 col-lg-5 col_pl">
-                     <div class="block-form">
-                        <div class="circle-btn">
-                           <p>за <span>1</span> день</p>
-                        </div>
-                        <div class="block-form__content">
-                           <div class="title-form-main">Заполните данную форму,</div>
-                           <div class="descr-form">и наш менеджер свяжется с вами в течение 15 минут!</div>
-                           <form>
-                              <div class="item-form">
-                                 <div class="item-form__icon">
-                                    <img src="img/ic_user.svg" alt="alt">
-                                 </div>
-                                 <input type="text" placeholder="Имя" required="required">
-                              </div>
-                              <div class="item-form">
-                                 <div class="item-form__icon">
-                                    <img src="img/ic_phone.svg" alt="alt">
-                                 </div>
-                                 <input type="text" placeholder="Телефон" class="input-phone"
-                                    required="required">
-                              </div>
-                              <div class="fl-upld">
-                                 <div id="fl_nm" class="name-upload"></div>
-                                 <label><input id="fl_inp" type="file" name="file"><i class="fa fa-paperclip"
-                                    aria-hidden="true"></i> Техническое задание</label>
-                              </div>
-                              <button class="btn-main btn-main_width" type="submit"><span>Получить расчет
-                              стоимости</span></button>
-                              <div class="checkbox-wrap">
-                                 <div class="checkbox">
-                                    <label>
-                                    <input type="checkbox" required="required" checked="checked" />
-                                    <span>Согласие на обработку персональных данных</span>
-                                    </label>
-                                 </div>
-                              </div>
-                           </form>
-                        </div>
-                     </div>
+                  <div class="equipment-text">
+                     У нас есть всё: от компрессорных станций<br> и до пескоструйных аппаратов
                   </div>
                </div>
             </div>
          </div>
-         <div class="instagram">
-            <div class="container">
-               <div class="row align-items-center">
-                  <div class="col-lg-3">
-                     <div class="title-page">Мы в instagram</div>
-                     <a href="#" class="link-insta"><i class="fab fa-instagram"></i> #примапитер</a>
-                  </div>
-                  <div class="col-lg-9">
-                     <ul class="slider-insta">
-                        <li>
-                           <a href="img/insta1.jpg" class="slider-insta__item fancybox" rel="group2">
-                           <img src="img/insta1.jpg" alt="alt">
-                           </a>
-                        </li>
-                        <li>
-                           <a href="img/insta2.jpg" class="slider-insta__item fancybox" rel="group2">
-                           <img src="img/insta2.jpg" alt="alt">
-                           </a>
-                        </li>
-                        <li>
-                           <a href="img/insta3.jpg" class="slider-insta__item fancybox" rel="group2">
-                           <img src="img/insta3.jpg" alt="alt">
-                           </a>
-                        </li>
-                        <li>
-                           <a href="img/insta4.jpg" class="slider-insta__item fancybox" rel="group2">
-                           <img src="img/insta4.jpg" alt="alt">
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
+         <div class="col-md-6">
+            <div class="equipment__items last-child">
+               <div class="equipment__img">
+                  <img src="img/equipment/equipment-4.svg" alt="icon">
                </div>
-            </div>
-         </div>
-         <div class="contacts">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-4 col_pr">
-                     <div class="contacts-block">
-                        <div class="contacts-block__title">Контакты:</div>
-                        <p>Санкт-Петербург, </p>
-                        <p>ул. Кантемировская д.12, лит. А, пом. 10-Н</p>
-                        <p><a href="mailto:info@prima-piter.ru ">info@prima-piter.ru </a></p>
-                        <div class="contacts-block__title">Телефон::</div>
-                        <p><a href="tel:+7 (812) 920-32-38">+7 (812) 920-32-38</a></p>
-                        <div class="contacts-block__title">Время работы:</div>
-                        <p>Пн-Вс с 10:00 до 20:00</p>
-                        <p>Без выходных</p>
-                     </div>
+               <div class="equipment-text__block">
+                  <div class="equipment-subtitle">
+                     Собственная доставка
                   </div>
-               </div>
-            </div>
-            <div id="map"></div>
-         </div>
-         <footer class="footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-2 col-md-3">
-                     <ul class="footer-menu">
-                        <li class="footer-menu__item"><a href="#" class="footer-menu__link">О компании</a></li>
-                        <li class="footer-menu__item"><a href="#" class="footer-menu__link">Наши объекты </a></li>
-                        <li class="footer-menu__item"><a href="#" class="footer-menu__link">Как мы работаем?</a>
-                        </li>
-                        <li class="footer-menu__item"><a href="#" class="footer-menu__link">Оборудование </a></li>
-                        <li class="footer-menu__item"><a href="#" class="footer-menu__link">Лицензии</a></li>
-                        <li class="footer-menu__item"><a href="#" class="footer-menu__link">Блог</a></li>
-                        <li class="footer-menu__item"><a href="#" class="footer-menu__link">Контакты</a></li>
-                     </ul>
-                     <ul class="list-language ">
-                        <li class="active"><a href="#">RU</a><span>|</span></li>
-                        <li><a href="#">EN</a></li>
-                     </ul>
-                  </div>
-                  <div class="col-lg-4 offset-lg-2 col-md-4 offset-md-1">
-                     <div class="footer__title">Услуги</div>
-                     <ul class="service-footer">
-                        <li class="service-footer__item"><a href="#" class="service-footer__link">Антикоррозийная
-                           защита конструкций и сооружений</a>
-                        </li>
-                        <li class="service-footer__item"><a href="#" class="service-footer__link">Огнезащита
-                           металлоконструкций (обеспечение<br>
-                           необходимого предела огнестойкости по ФЗ-123) </a>
-                        </li>
-                        <li class="service-footer__item"><a href="#" class="service-footer__link">Аренда
-                           спецтехники</a>
-                        </li>
-                        <li class="service-footer__item"><a href="#" class="service-footer__link">Проектирование и
-                           расчет огнезащиты
-                           </a>
-                        </li>
-                        <li class="service-footer__item"><a href="#" class="service-footer__link">Огнезащита
-                           деревянных конструкций<br>
-                           и текстильных материалов</a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="col-md-3 offset-md-1">
-                     <div class="footer__title">Контакты:</div>
-                     <p>Санкт-Петербург, </p>
-                     <p>ул. Кантемировская д.12, лит. А, </p>
-                     <p><a href="mailto:info@prima-piter.ru">info@prima-piter.ru </a></p>
-                     <div class="footer__title">Телефон:</div>
-                     <p><a href="tel:+7 (812) 920-32-38a-piter.ru">+7 (812) 920-32-38</a></p>
-                     <div class="footer__title">Время работы:</div>
-                     <p>Пн-Вс с 10:00 до 20:00</p>
-                     <p>Без выходных</p>
-                  </div>
-               </div>
-            </div>
-         </footer>
-         <div class="associate">
-            <div class="container">
-               <div class="row align-items-center">
-                  <div class="col-md-3">
-                     <div class="associate__text">
-                        <a href="#"> Политика конфиденциальности</a>
-                     </div>
-                  </div>
-                  <div class="col-md-3">
-                     <div class="associate__text">
-                        г. Симферополь © Copyright 2020 г.
-                     </div>
-                  </div>
-                  <div class="col-md-3">
-                     <div class="associate__make">
-                        Сделано в <img src="img/footer/sheer.png" alt="">
-                     </div>
-                  </div>
-                  <div class="col-md-3 align_right col-sm-6">
-                     <a href="#" class="btn_top"><i class="fa fa-arrow-up"></i></a>
+                  <div class="equipment-text">
+                     Возможность оперативно подвезти<br>
+                     технику в любую точку России в любой<br> день в году
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <div id="callback" class="modal-block">
-         <div class="modal-wrap">
+      <div class="equipment-officials">
+         <div class="equipment-officials__block">
+            <div class="equipment__logo">
+               <img src="img/equipment/graco.png" alt="graco">
+            </div>
+            <div class="equipment__logo">
+               <img src="img/equipment/irmer_logo.png" alt="irmer">
+            </div>
+            <div class="equipment__logo">
+               <img src="img/equipment/wagner.png" alt="wagner">
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="calculation calculation_rent">
+   <div class="container">
+      <div class="row align-items-center">
+         <div class="col-lg-7">
+            <h2 class="title-page title-page_big">Получите расчет стоимости аренды спецтехники по вашему техническому заданию, <span class="title-page__lite">а также рекомендации по оптимизации проведения проектных работ от нашего специалиста</span></h2>
+         </div>
+         <div class="col-xl-4 offset-xl-1 offset-lg-0 offset-md-3 col-lg-5 col_pl">
             <div class="block-form">
+               <div class="circle-btn">
+                  <p>за <span>1</span> день</p>
+               </div>
                <div class="block-form__content">
                   <div class="title-form-main">Заполните данную форму,</div>
-                  <div class="descr-form">и наш инженер-проектировщик свяжется с вами в течение 15 минут!</div>
+                  <div class="descr-form">и наш менеджер свяжется с вами в течение 15 минут!</div>
                   <form>
                      <div class="item-form">
                         <div class="item-form__icon">
@@ -662,115 +485,321 @@
                         <div class="item-form__icon">
                            <img src="img/ic_phone.svg" alt="alt">
                         </div>
-                        <input type="text" placeholder="Телефон" class="input-phone" required="required">
+                        <input type="text" placeholder="Телефон" class="input-phone"
+                        required="required">
                      </div>
-                     <button class="btn-main btn-main_width" type="submit"><span>Рассчитать стоимость</span></button>
-                     <div class="checkbox-wrap">
-                        <div class="checkbox">
-                           <label>
-                           <input type="checkbox" required="required" checked="checked" />
-                           <span>Согласие на обработку персональных данных</span>
-                           </label>
+                     <div class="fl-upld">
+                        <div id="fl_nm" class="name-upload"></div>
+                        <label><input id="fl_inp" type="file" name="file"><i class="fa fa-paperclip"
+                           aria-hidden="true"></i> Техническое задание</label>
                         </div>
-                     </div>
-                  </form>
+                        <button class="btn-main btn-main_width" type="submit"><span>Получить расчет
+                        стоимости</span></button>
+                        <div class="checkbox-wrap">
+                           <div class="checkbox">
+                              <label>
+                                 <input type="checkbox" required="required" checked="checked" />
+                                 <span>Согласие на обработку персональных данных</span>
+                              </label>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
                </div>
             </div>
          </div>
       </div>
-      <div id="callback-mail" class="modal-block">
-         <div class="modal-wrap">
-            <div class="block-form">
-               <div class="block-form__content">
-                  <div class="title-form-main">Заполните данную форму,</div>
-                  <div class="descr-form">а мы моментально отправим Вам на почту документ со всеми реализованными проектами</div>
-                  <form>
-                     <div class="item-form">
-                        <div class="item-form__icon">
-                           <img src="img/ic_user.svg" alt="alt">
-                        </div>
-                        <input type="text" placeholder="Имя" required="required">
-                     </div>
-                     <div class="item-form">
-                        <div class="item-form__icon">
-                           <img src="img/ic_phone.svg" alt="alt">
-                        </div>
-                        <input type="text" placeholder="Телефон" class="input-phone" required="required">
-                     </div>
-                     <div class="item-form">
-                        <div class="item-form__icon">
-                           <img src="img/ic_mail.svg" alt="alt">
-                        </div>
-                        <input type="email" placeholder="Почта" required="required">
-                     </div>
-                     <button class="btn-main btn-main_width" type="submit"><span>Скачать документ</span></button>
-                     <div class="checkbox-wrap">
-                        <div class="checkbox">
-                           <label>
-                           <input type="checkbox" required="required" checked="checked" />
-                           <span>Согласие на обработку персональных данных</span>
-                           </label>
-                        </div>
-                     </div>
-                  </form>
+   </div>
+   <div class="instagram">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-lg-3">
+               <div class="title-page">Мы в instagram</div>
+               <a href="#" class="link-insta"><i class="fab fa-instagram"></i> #примапитер</a>
+            </div>
+            <div class="col-lg-9">
+               <ul class="slider-insta">
+                  <li>
+                     <a href="img/insta1.jpg" class="slider-insta__item fancybox" rel="group2">
+                        <img src="img/insta1.jpg" alt="alt">
+                     </a>
+                  </li>
+                  <li>
+                     <a href="img/insta2.jpg" class="slider-insta__item fancybox" rel="group2">
+                        <img src="img/insta2.jpg" alt="alt">
+                     </a>
+                  </li>
+                  <li>
+                     <a href="img/insta3.jpg" class="slider-insta__item fancybox" rel="group2">
+                        <img src="img/insta3.jpg" alt="alt">
+                     </a>
+                  </li>
+                  <li>
+                     <a href="img/insta4.jpg" class="slider-insta__item fancybox" rel="group2">
+                        <img src="img/insta4.jpg" alt="alt">
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="contacts">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-4 col_pr">
+               <div class="contacts-block">
+                  <div class="contacts-block__title">Контакты:</div>
+                  <p>Санкт-Петербург, </p>
+                  <p>ул. Кантемировская д.12, лит. А, пом. 10-Н</p>
+                  <p><a href="mailto:info@prima-piter.ru ">info@prima-piter.ru </a></p>
+                  <div class="contacts-block__title">Телефон::</div>
+                  <p><a href="tel:+7 (812) 920-32-38">+7 (812) 920-32-38</a></p>
+                  <div class="contacts-block__title">Время работы:</div>
+                  <p>Пн-Вс с 10:00 до 20:00</p>
+                  <p>Без выходных</p>
                </div>
             </div>
          </div>
       </div>
+      <div id="map"></div>
+   </div>
+   <footer class="footer">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-2 col-md-3">
+               <ul class="footer-menu">
+                  <li class="footer-menu__item"><a href="#" class="footer-menu__link">О компании</a></li>
+                  <li class="footer-menu__item"><a href="#" class="footer-menu__link">Наши объекты </a></li>
+                  <li class="footer-menu__item"><a href="#" class="footer-menu__link">Как мы работаем?</a>
+                  </li>
+                  <li class="footer-menu__item"><a href="#" class="footer-menu__link">Оборудование </a></li>
+                  <li class="footer-menu__item"><a href="#" class="footer-menu__link">Лицензии</a></li>
+                  <li class="footer-menu__item"><a href="#" class="footer-menu__link">Блог</a></li>
+                  <li class="footer-menu__item"><a href="#" class="footer-menu__link">Контакты</a></li>
+               </ul>
+               <ul class="list-language ">
+                  <li class="active"><a href="#">RU</a><span>|</span></li>
+                  <li><a href="#">EN</a></li>
+               </ul>
+            </div>
+            <div class="col-lg-4 offset-lg-2 col-md-4 offset-md-1">
+               <div class="footer__title">Услуги</div>
+               <ul class="service-footer">
+                  <li class="service-footer__item"><a href="#" class="service-footer__link">Антикоррозийная защита конструкций и сооружений</a>
+                  </li>
+                  <li class="service-footer__item"><a href="#" class="service-footer__link">Огнезащита металлоконструкций (обеспечение<br> необходимого предела огнестойкости по ФЗ-123) </a>
+                  </li>
+                  <li class="service-footer__item"><a href="#" class="service-footer__link">Огнезащита деревянных конструкций</a>
+                  </li>
+                  <li class="service-footer__item"><a href="#" class="service-footer__link">Аренда спецтехники</a>
+                  </li>
+                  <li class="service-footer__item"><a href="#" class="service-footer__link">Проектирование и расчет огнезащиты </a>
+                  </li>
+                  <li class="service-footer__item"><a href="#" class="service-footer__link">Огнезащита текстильных материалов и ковролиновых покрытий</a>
+                  </li>
+                  <li class="service-footer__item"><a href="#" class="service-footer__link">Торкретирование (нанесение на конструкции бетонных защитных растворов) </a> </li>
+                  <li class="service-footer__item"><a href="#" class="service-footer__link">Монтаж полимерных полов</a>
+                  </ul>
+               </div>
+               <div class="col-md-3 offset-md-1">
+                  <div class="footer__title">Контакты:</div>
+                  <p>Санкт-Петербург, </p>
+                  <p>ул. Кантемировская д.12, лит. А, </p>
+                  <p><a href="mailto:info@prima-piter.ru">info@prima-piter.ru </a></p>
+                  <div class="footer__title">Телефон:</div>
+                  <p><a href="tel:+7 (812) 920-32-38a-piter.ru">+7 (812) 920-32-38</a></p>
+                  <div class="footer__title">Время работы:</div>
+                  <p>Пн-Вс с 10:00 до 20:00</p>
+                  <p>Без выходных</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="associate">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-md-3">
+                  <div class="associate__text">
+                     <a href="#"> Политика конфиденциальности</a>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="associate__text">
+                     г. Симферополь © Copyright 2020 г.
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="associate__make">
+                     Сделано в <img src="img/footer/sheer.png" alt="">
+                  </div>
+               </div>
+               <div class="col-md-3 align_right col-sm-6">
+                  <a href="#" class="btn_top"><i class="fa fa-arrow-up"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="callback" class="modal-block">
+      <div class="modal-wrap">
+         <div class="block-form">
+            <div class="block-form__content">
+               <div class="title-form-main">Заполните данную форму,</div>
+               <div class="descr-form">и наш инженер-проектировщик свяжется с вами в течение 15 минут!</div>
+               <form>
+                  <div class="item-form">
+                     <div class="item-form__icon">
+                        <img src="img/ic_user.svg" alt="alt">
+                     </div>
+                     <input type="text" placeholder="Имя" required="required">
+                  </div>
+                  <div class="item-form">
+                     <div class="item-form__icon">
+                        <img src="img/ic_phone.svg" alt="alt">
+                     </div>
+                     <input type="text" placeholder="Телефон" class="input-phone" required="required">
+                  </div>
+                  <button class="btn-main btn-main_width" type="submit"><span>Рассчитать стоимость</span></button>
+                  <div class="checkbox-wrap">
+                     <div class="checkbox">
+                        <label>
+                           <input type="checkbox" required="required" checked="checked" />
+                           <span>Согласие на обработку персональных данных</span>
+                        </label>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="callback-service" class="modal-block">
+      <div class="modal-wrap">
+         <div class="block-form">
+            <div class="block-form__content">
+               <div class="title-form-main">Заполните данную форму,</div>
+               <div class="descr-form">и наш специалист свяжется с вами в течение 15 минут!</div>
+               <form>
+                  <div class="item-form">
+                     <div class="item-form__icon">
+                        <img src="img/ic_user.svg" alt="alt">
+                     </div>
+                     <input type="text" placeholder="Имя" required="required">
+                  </div>
+                  <div class="item-form">
+                     <div class="item-form__icon">
+                        <img src="img/ic_phone.svg" alt="alt">
+                     </div>
+                     <input type="text" placeholder="Телефон" class="input-phone" required="required">
+                  </div>
+                  <button class="btn-main btn-main_width" type="submit"><span>Рассчитать стоимость</span></button>
+                  <div class="checkbox-wrap">
+                     <div class="checkbox">
+                        <label>
+                           <input type="checkbox" required="required" checked="checked" />
+                           <span>Согласие на обработку персональных данных</span>
+                        </label>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="callback-mail" class="modal-block">
+      <div class="modal-wrap">
+         <div class="block-form">
+            <div class="block-form__content">
+               <div class="title-form-main">Заполните данную форму,</div>
+               <div class="descr-form">а мы моментально отправим Вам на почту документ со всеми реализованными проектами</div>
+               <form>
+                  <div class="item-form">
+                     <div class="item-form__icon">
+                        <img src="img/ic_user.svg" alt="alt">
+                     </div>
+                     <input type="text" placeholder="Имя" required="required">
+                  </div>
+                  <div class="item-form">
+                     <div class="item-form__icon">
+                        <img src="img/ic_phone.svg" alt="alt">
+                     </div>
+                     <input type="text" placeholder="Телефон" class="input-phone" required="required">
+                  </div>
+                  <div class="item-form">
+                     <div class="item-form__icon">
+                        <img src="img/ic_mail.svg" alt="alt">
+                     </div>
+                     <input type="email" placeholder="Почта" required="required">
+                  </div>
+                  <button class="btn-main btn-main_width" type="submit"><span>Скачать документ</span></button>
+                  <div class="checkbox-wrap">
+                     <div class="checkbox">
+                        <label>
+                           <input type="checkbox" required="required" checked="checked" />
+                           <span>Согласие на обработку персональных данных</span>
+                        </label>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
       <!--[if lt IE 9]>
       <script src="libs/html5shiv/es5-shim.min.js"></script>
       <script src="libs/html5shiv/html5shiv.min.js"></script>
       <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
       <script src="libs/respond/respond.min.js"></script>
-      <![endif]-->
-      <script src="libs/jquery/jquery-1.11.1.min.js"></script>
-      <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
-      <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-      <script src="libs/mask/jquery.maskedinput.js"></script>
-      <script src="libs/slick-1.5.9/slick/slick.min.js"></script>
-      <script src="libs/scroll2id/PageScroll2id.min.js"></script>
-      <script src="js/common.js?ver=1.43"></script>
-      <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-      <script>
-         $(document).ready(function() {
-         	ymaps.ready(init);
-         
-         	function init() {
-         		var myMap = new ymaps.Map('map', {
-         			center: [59.983995, 30.331139],
-         			zoom: 15
-         		}, {
-         			searchControlProvider: 'yandex#search'
-         		}),
-         
-         
-         		myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-         			balloonContent: '<p>г. Симферополь, ул. Москалева,  13/2</p>'
-         		}, {
+   <![endif]-->
+   <script src="libs/jquery/jquery-1.11.1.min.js"></script>
+   <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+   <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+   <script src="libs/mask/jquery.maskedinput.js"></script>
+   <script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+   <script src="libs/scroll2id/PageScroll2id.min.js"></script>
+   <script src="js/common.js?ver=1.67"></script>
+   <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+   <script>
+      $(document).ready(function() {
+        ymaps.ready(init);
+        
+        function init() {
+          var myMap = new ymaps.Map('map', {
+            center: [59.983995, 30.331139],
+            zoom: 15
+         }, {
+            searchControlProvider: 'yandex#search'
+         }),
+          
+          
+          myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+            balloonContent: '<p>г. Симферополь, ул. Москалева,  13/2</p>'
+         }, {
                     // Опции.
                     // Необходимо указать данный тип макета.
                     iconLayout: 'default#image',
                     // Своё изображение иконки метки.
                     iconImageHref: 'img/pin.svg',
                     iconImageSize: [29, 38],
-                });
-         		myMap.controls.remove('searchControl');
-         		myMap.behaviors.disable('scrollZoom');
-         		myMap.geoObjects.add(myPlacemark);
-         
-         		myPlacemark.events
-         		.add('mouseenter', function (e) {
+                 });
+          myMap.controls.remove('searchControl');
+          myMap.behaviors.disable('scrollZoom');
+          myMap.geoObjects.add(myPlacemark);
+          
+          myPlacemark.events
+          .add('mouseenter', function (e) {
                     // Ссылку на объект, вызвавший событие,
                     // можно получить из поля 'target'.
                     e.get('target').options.set('iconImageHref', 'img/pin2.svg'); 
-                })
-         		.add('mouseleave', function (e) {
-         			e.get('target').options.set('iconImageHref', 'img/pin.svg'); 
-         		});
-         	}
+                 })
+          .add('mouseleave', function (e) {
+            e.get('target').options.set('iconImageHref', 'img/pin.svg'); 
          });
-      </script>
-      <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
-      <!-- Google Analytics counter --><!-- /Google Analytics counter -->
-   </body>
+       }
+    });
+ </script>
+ <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+ <!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
 </html>
