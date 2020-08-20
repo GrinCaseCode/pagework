@@ -28,8 +28,13 @@ $(".input-phone").mask("+7 (999) 999-99-99");
 	});
 
 	$(".header__bottom a").click(function() {
+		{
+		if ($(window).width() < 992) { 
 			$(".header__bottom").slideUp(200);
 			$(".sandwich").removeClass("active");
+		}
+	}
+		
 		});
 
 	//слайдер

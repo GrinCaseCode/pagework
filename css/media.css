@@ -963,6 +963,13 @@ overflow: hidden;
 .show_tablet {
 	display: none !important;
 }
+.header__bottom {
+    display: -webkit-flex !important;
+    display: -moz-flex !important;
+    display: -ms-flex !important;
+    display: -o-flex !important;
+    display: flex !important;
+}
 }
 
  /* Large Devices, Wide Screens */
