@@ -190,9 +190,9 @@ $(".input-phone").mask("+7 (999) 999-99-99");
 		$(".sideber-catalog").slideToggle(200);
 	});
 
-	$(".tabs-catalog li a").click(function(event) {
+	$(".catalog .tabs-catalog li a").click(function(event) {
 		event.preventDefault();
-		$(".tabs-catalog li").removeClass('active');
+		$(".catalog .tabs-catalog li").removeClass('active');
 		$(this).parent().addClass('active');
 		$(".tab-pane-catalog").removeClass("active");
 		var selectTab5 = $(this).attr("href");
