@@ -1,87 +1,48 @@
+
 @font-face {
 	font-family: 'Geometria Regular';
-	src: url('../fonts/geometria/Geometria.eot');
-	src: url('../fonts/geometria/Geometria.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/geometria/Geometria.woff') format('woff'),
-	url('../fonts/geometria/Geometria.ttf') format('truetype');
+	src:  url('../fonts/Geometria.woff2') format('woff2'),
+	url('../fonts/Geometria.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
-}
-@font-face {
-font-family: 'Geometria Bold';
-src: url('../fonts/geometria/Geometria-Bold.eot');
-src: url('../fonts/geometria/Geometria-Bold.eot?#iefix') format('embedded-opentype'),
-url('../fonts/geometria/Geometria-Bold.woff') format('woff'),
-url('../fonts/geometria/Geometria-Bold.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
 }
 
 @font-face {
-font-family: 'Geometria Medium';
-src: url('../fonts/geometria/Geometria-Medium.eot');
-src: url('../fonts/geometria/Geometria-Medium.eot?#iefix') format('embedded-opentype'),
-url('../fonts/geometria/Geometria-Medium.woff') format('woff'),
-url('../fonts/geometria/Geometria-Medium.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
-}
-@font-face {
-	font-family: "Geometria-ExtaBlack";
-	src: url("../fonts/Geometria-ExtaBlack.otf?#iefix")format("embedded-opentype"),
-	url("../fonts/Geometria-ExtaBlack.otf") format("truetype"),
-	url("../fonts/Geometria-ExtaBlack.eot") format("eot");
-	font-style: normal;
+	font-family: 'Geometria Bold';
+	src:  url('../fonts/Geometria-Bold.woff2') format('woff2'),
+	url('../fonts/Geometria-Bold.ttf') format('truetype');
 	font-weight: normal;
+	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Geometria Medium';
+	src:  url('../fonts/Geometria-Medium.woff2') format('woff2'),
+	url('../fonts/Geometria-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria Medium';
+	src:  url('../fonts/Geometria-Medium.woff2') format('woff2'),
+	url('../fonts/Geometria-Medium.otf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 @font-face {
 	font-family: 'Geometria Extra Bold';
-	src: url('../fonts/Geometria-ExtraBold.eot');
-	src: url('../fonts/Geometria-ExtraBold.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Geometria-ExtraBold.woff') format('woff'),
+	src:  url('../fonts/Geometria-ExtraBold.woff2') format('woff2'),
 	url('../fonts/Geometria-ExtraBold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face {
-	font-family: "Geometria-ExtraLight";
-	src: url("../fonts/Geometria-ExtraLight.otf?#iefix")format("embedded-opentype"),
-	url("../fonts/Geometria-ExtraLight.otf") format("truetype"),
-	url("../fonts/Geometria-ExtraLight.eot") format("eot");
-	font-style: normal;
-	font-weight: normal;
-}
 
 @font-face {
 	font-family: "Geometria-Heavy";
-	src: url("../fonts/Geometria-Heavy.otf?#iefix")format("embedded-opentype"),
-	url("../fonts/Geometria-Heavy.otf") format("truetype"),
-	url("../fonts/Geometria-Heavy.eot") format("eot");
-	font-style: normal;
+	src:  url('../fonts/Geometria-Heavy.woff2') format('woff2'),
+	url('../fonts/Geometria-Heavy.ttf') format('truetype');
 	font-weight: normal;
-}
-
-@font-face {
-	font-family: "Geometria-Thin";
-	src: url("../fonts/Geometria-Thin.otf?#iefix")format("embedded-opentype"),
-	url("../fonts/Geometria-Thin.otf") format("truetype"),
-	url("../fonts/Geometria-Thin.eot") format("eot");
 	font-style: normal;
-	font-weight: normal;
-}
-@font-face {
-	font-family: "Geometria-Italic";
-	src: url("../fonts/Geometria-Italic.otf?#iefix")format("embedded-opentype"),
-	url("../fonts/Geometria-Italic.otf") format("truetype"),
-	url("../fonts/Geometria-Italic.eot") format("eot");
-	font-style: normal;
-	font-weight: normal;
-}
-@font-face {
-	font-family: "Geometria-BoldItalic";
-	src: url("../fonts/Geometria-BoldItalic.otf?#iefix")format("embedded-opentype"),
-	url("../fonts/Geometria-BoldItalic.otf") format("truetype"),
-	url("../fonts/Geometria-BoldItalic.eot") format("eot");
-	font-style: normal;
-	font-weight: normal;
 }
