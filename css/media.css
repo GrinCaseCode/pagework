@@ -1097,6 +1097,16 @@
         font-size: 12px;
         padding-bottom: 14px;
     }
+    .btn-sidebar {
+    padding: 8px 14px;
+    min-width: 65px;
+}
+.sideber-catalog .checkbox {
+    margin-top: 15px;
+}
+ .phone-form .btn-main {
+    width: 100%;
+ }
 }
 @media only screen and (max-width : 395px) {
     .logo-wrap {

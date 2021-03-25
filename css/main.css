@@ -3291,6 +3291,7 @@ p {
 	font-family: 'Geometria Regular';
 }
 .item-catalog__image {
+	padding: 10px;
 	height: 214px;
 	width: 100%;
 	background-color: #fff;
